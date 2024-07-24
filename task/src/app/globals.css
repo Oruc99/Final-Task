@@ -1,0 +1,918 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn1 {
+    background-color: #292F36;
+    transition: 150ms;
+}
+
+.btn1:hover {
+    background-color: #454f5a;
+    scale: 0.9;
+}
+
+.linkH1 {
+    border: 1px solid rgb(255, 255, 255);
+    transition: 120ms;
+}
+
+.linkH1:hover {
+    border: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.btnB {
+    transition: 100ms;
+    display: block;
+    margin: auto;
+}
+
+.btnB:hover {
+    opacity: 0.9;
+    scale: 1.1;
+}
+
+.navbarHicon:hover {
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+.navLinkH:hover {
+    transform: translate(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blogCC {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+@media(max-width:1200px) {
+    .containeR {
+        width: 930px;
+    }
+
+    .navbarC {
+        display: flex;
+    }
+
+    .navbarHicon {
+        display: none;
+    }
+
+    .homeHeadH1 {
+        font-size: 65px;
+    }
+
+    .homeHeadP {
+        font-size: 20px;
+    }
+
+    .homeHeadImg {
+        height: 750px;
+    }
+
+    .createArt img {
+        height: 570px;
+    }
+
+    .createArt h1 {
+        font-size: 40px
+    }
+
+    .createArtP {
+        font-size: 16px;
+    }
+
+    .callP1 {
+        font-size: 20px;
+    }
+
+    .callP2 {
+        font-size: 16px;
+    }
+
+    .callSvg {
+        width: 93px;
+        height: 93px;
+    }
+
+    .peopleThinK {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .peopleThinkPP1 {
+        font-size: 17px;
+    }
+
+    .peopleThinkPP2 {
+        font-size: 14px;
+    }
+
+    .peopleThinkH1 {
+        font-size: 43px;
+    }
+
+    .peopleThinkDesc {
+        font-size: 14px;
+    }
+
+    .pTitle {
+        font-size: 47px;
+    }
+
+    .pInfo {
+        font-size: 17px;
+    }
+
+    .homeProjectFollow {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .numberCnum {
+        font-size: 70px;
+    }
+
+    .numberCD {
+        padding-inline: 72px;
+    }
+
+    .numberCp {
+        font-size: 15px;
+    }
+
+    .numberCCC {
+        padding-block: 90px;
+    }
+
+    .homeBDF {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contacTP1 {
+        font-size: 42px;
+    }
+
+    .contacTP2 {
+        font-size: 16px;
+    }
+
+    .fooTP {
+        font-size: 16px;
+    }
+
+    .fooTtitle {
+        font-size: 26px;
+    }
+
+    .fooTsvg1 {
+        width: 178px;
+    }
+
+    .fooTsvg2 {
+        width: 226px;
+    }
+    .aboutHeadP1{
+        font-size: 24px;
+    }
+    .aboutHeadP2{
+        font-size: 15px;
+    }
+    .abouTh1{
+        font-size: 34px;
+    }
+    .abouTp{
+       font-size: 15px;
+    }
+    .contactINP{
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactSpan{
+        grid-column: 1 / span 2;
+    }
+}
+
+@media(max-width:1050px) {
+    .containeR {
+        width: 800px;
+    }
+
+    .navbarC {
+        display: flex;
+    }
+
+    .navbarHicon {
+        display: none;
+    }
+
+    .homeHeadH1 {
+        font-size: 62px;
+    }
+
+    .homeHeadP {
+        font-size: 19px;
+    }
+
+    .homeHeadImg {
+        height: 750px;
+    }
+
+    .createArt img {
+        height: 570px;
+    }
+
+    .createArt h1 {
+        font-size: 36px
+    }
+
+    .createArtP {
+        font-size: 14px;
+    }
+
+    .callP1 {
+        font-size: 18px;
+    }
+
+    .callP2 {
+        font-size: 15px;
+    }
+
+    .callSvg {
+        width: 90px;
+        height: 90px;
+    }
+
+    .peopleThinK {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .peopleThinkPP1 {
+        font-size: 18px;
+    }
+
+    .peopleThinkPP2 {
+        font-size: 16px;
+    }
+
+    .peopleThinkH1 {
+        font-size: 38px;
+    }
+
+    .peopleThinkDesc {
+        font-size: 15px;
+    }
+
+    .pTitle {
+        font-size: 44px;
+    }
+
+    .pInfo {
+        font-size: 16px;
+    }
+
+    .homeProjectFollow {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .numberCnum {
+        font-size: 64px;
+    }
+
+    .numberCD {
+        padding-inline: 60px;
+    }
+
+    .numberCp {
+        font-size: 14px;
+    }
+
+    .numberCCC {
+        padding-block: 90px;
+    }
+
+    .homeBDF {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacTP1 {
+        font-size: 42px;
+    }
+
+    .contacTP2 {
+        font-size: 16px;
+    }
+
+    .fooTP {
+        font-size: 14px;
+    }
+
+    .fooTtitle {
+        font-size: 23px;
+    }
+
+    .fooTsvg1 {
+        width: 158px;
+    }
+
+    .fooTsvg2 {
+        width: 196px;
+    }
+    .aboutHeadP1{
+        font-size: 20px;
+    }
+    .aboutHeadP2{
+        font-size: 14px;
+    }
+    .abouTh1{
+        font-size: 31px;
+    }
+    .abouTp{
+       font-size: 14px;
+    }
+    .contactINP{
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactSpan{
+        grid-column: 1 / span 2;
+    }
+ 
+}
+
+@media(max-width:870px) {
+    .containeR {
+        width: 640px;
+    }
+
+    .navbarC {
+        display: none;
+    }
+
+    .navbarHicon {
+        display: inherit;
+    }
+
+    .homeHeadH1 {
+        font-size: 55px;
+    }
+
+    .homeHeadP {
+        font-size: 17px;
+    }
+
+    .homeHeadImg {
+        height: 700px;
+    }
+
+    .createArt img {
+        height: 470px;
+    }
+
+    .createArt h1 {
+        font-size: 32px
+    }
+
+    .createArtP {
+        font-size: 11px;
+    }
+
+    .callP1 {
+        font-size: 16px;
+    }
+
+    .callP2 {
+        font-size: 14px;
+    }
+
+    .callSvg {
+        width: 85px;
+        height: 85px;
+    }
+
+    .peopleThinK {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .peopleThinkPP1 {
+        font-size: 18px;
+    }
+
+    .peopleThinkPP2 {
+        font-size: 16px;
+    }
+
+    .peopleThinkH1 {
+        font-size: 32px;
+    }
+
+    .peopleThinkDesc {
+        font-size: 14px;
+    }
+
+    .pTitle {
+        font-size: 38px;
+    }
+
+    .pInfo {
+        font-size: 14px;
+    }
+
+    .homeProjectFollow {
+        grid-template-columns: 1fr;
+    }
+
+    .numberCnum {
+        font-size: 58px;
+    }
+
+    .numberCD {
+        padding-inline: 40px;
+    }
+
+    .numberCp {
+        font-size: 12px;
+    }
+
+    .numberCCC {
+        padding-block: 70px;
+    }
+
+    .homeBDF {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacTP1 {
+        font-size: 38px;
+    }
+
+    .contacTP2 {
+        font-size: 14px;
+    }
+    .fooTP {
+        font-size: 12px;
+    }
+
+    .fooTtitle {
+        font-size: 20px;
+    }
+
+    .fooTsvg1 {
+        width: 148px;
+    }
+
+    .fooTsvg2 {
+        width: 180px;
+    }
+    .aboutHeadP1{
+        font-size: 16px;
+    }
+    .aboutHeadP2{
+        font-size: 12px;
+    }
+    .abouTh1{
+        font-size: 25px;
+    }
+    .abouTp{
+       font-size: 10px;
+    }
+    .contactINP{
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactSpan{
+        grid-column: 1 / span 2;
+    }
+  
+}
+
+@media(max-width:730px) {
+    .containeR {
+        width: 500px;
+    }
+
+    .navbarC {
+        display: none;
+    }
+
+    .navbarHicon {
+        display: inherit;
+    }
+
+    .homeHeadH1 {
+        font-size: 50px;
+    }
+
+    .homeHeadP {
+        font-size: 17px;
+    }
+
+    .homeHeadImg {
+        height: 650px;
+    }
+
+    .createArt img {
+        height: 400px;
+    }
+
+    .createArt h1 {
+        font-size: 26px
+    }
+
+    .createArtP {
+        font-size: 9px;
+    }
+
+    .callP1 {
+        font-size: 14px;
+    }
+
+    .callP2 {
+        font-size: 12px;
+    }
+
+    .callSvg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .peopleThinK {
+        grid-template-columns: 1fr;
+    }
+
+    .peopleThinkPP1 {
+        font-size: 18px;
+    }
+
+    .peopleThinkPP2 {
+        font-size: 16px;
+    }
+
+    .peopleThinkH1 {
+        font-size: 32px;
+    }
+
+    .peopleThinkDesc {
+        font-size: 14px;
+    }
+
+    .pTitle {
+        font-size: 33px;
+    }
+
+    .pInfo {
+        font-size: 12px;
+    }
+
+    .numberCnum {
+        font-size: 58px;
+    }
+
+    .numberCD {
+        padding-inline: 30px;
+    }
+
+    .numberCp {
+        font-size: 11px;
+    }
+
+    .numberCCC {
+        padding-block: 55px;
+    }
+
+    .homeBDF {
+        grid-template-columns: 1fr;
+    }
+
+    .contacTP1 {
+        font-size: 38px;
+    }
+
+    .contacTP2 {
+        font-size: 14px;
+    }
+
+    .fooTP {
+        font-size: 9px;
+    }
+
+    .fooTtitle {
+        font-size: 17px;
+    }
+
+    .fooTsvg1 {
+        width: 132px;
+    }
+
+    .fooTsvg2 {
+        width: 148px;
+    }
+    .aboutHeadP1{
+        font-size: 13px;
+    }
+    .aboutHeadP2{
+        font-size: 10px;
+    }
+    .abouTh1{
+        font-size: 22px;
+    }
+    .abouTp{
+       font-size: 7px;
+    }
+    .contactINP{
+        grid-template-columns:  1fr;
+    }
+    .contactSpan{
+        grid-column: 1 ;
+    }
+  
+}
+
+@media(max-width:600px) {
+    .containeR {
+        width: 400px;
+    }
+
+    .navbarC {
+        display: none;
+    }
+
+    .navbarHicon {
+        display: inherit;
+    }
+
+    .homeHeadH1 {
+        font-size: 40px;
+    }
+
+    .homeHeadP {
+        font-size: 15px;
+    }
+
+    .homeHeadImg {
+        height: 550px;
+    }
+
+    .createArt img {
+        height: 400px;
+    }
+
+    .createArt h1 {
+        font-size: 20px
+    }
+
+    .createArtP {
+        font-size: 7px;
+    }
+
+    .callP1 {
+        font-size: 12px;
+    }
+
+    .callP2 {
+        font-size: 10px;
+    }
+
+    .callSvg {
+        width: 63px;
+        height: 63px;
+    }
+
+    .peopleThinK {
+        grid-template-columns: 1fr;
+    }
+
+    .peopleThinkPP1 {
+        font-size: 18px;
+    }
+
+    .peopleThinkPP2 {
+        font-size: 16px;
+    }
+
+    .peopleThinkH1 {
+        font-size: 28px;
+    }
+
+    .peopleThinkDesc {
+        font-size: 14px;
+    }
+
+    .pTitle {
+        font-size: 28px;
+    }
+
+    .pInfo {
+        font-size: 9px;
+    }
+
+    .numberCnum {
+        font-size: 52px;
+    }
+
+    .numberCD {
+        padding-inline: 22px;
+    }
+
+    .numberCp {
+        font-size: 9px;
+    }
+
+    .numberCCC {
+        padding-block: 50px;
+    }
+
+    .homeBDF {
+        grid-template-columns: 1fr;
+    }
+
+    .contacTP1 {
+        font-size: 30px;
+    }
+
+    .contacTP2 {
+        font-size: 12px;
+    }
+    .fooTP {
+        font-size: 7px;
+    }
+
+    .fooTtitle {
+        font-size: 14px;
+    }
+
+    .fooTsvg1 {
+        width: 118px;
+    }
+
+    .fooTsvg2 {
+        width: 118px;
+    }
+    .aboutHeadP1{
+        font-size: 10px;
+    }
+    .aboutHeadP2{
+        font-size: 9px;
+    }
+}
+
+
+
+@media(min-width:1200px) {
+    .containeR {
+        width: 1050px;
+    }
+
+    .navbarC {
+        display: flex;
+    }
+
+    .navbarHicon {
+        display: none;
+    }
+
+    .homeHeadH1 {
+        font-size: 75px;
+    }
+
+    .homeHeadP {
+        font-size: 20px;
+    }
+
+    .homeHeadImg {
+        height: 750px;
+    }
+
+    .createArt img {
+        height: 570px;
+    }
+
+    .createArt h1 {
+        font-size: 40px
+    }
+
+    .createArtP {
+        font-size: 16px;
+    }
+
+    .callP1 {
+        font-size: 20px;
+    }
+
+    .callP2 {
+        font-size: 16px;
+    }
+
+    .callSvg {
+        width: 93px;
+        height: 93px;
+    }
+
+    .peopleThinK {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .peopleThinkPP1 {
+        font-size: 20px;
+    }
+
+    .peopleThinkPP2 {
+        font-size: 16px;
+    }
+
+    .peopleThinkH1 {
+        font-size: 45px;
+    }
+
+    .peopleThinkDesc {
+        font-size: 16px;
+    }
+
+    .pTitle {
+        font-size: 50px;
+    }
+
+    .pInfo {
+        font-size: 18px;
+    }
+
+    .homeProjectFollow {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .numberCnum {
+        font-size: 80px;
+    }
+
+    .numberCD {
+        padding-inline: 90px
+    }
+
+    .numberCp {
+        font-size: 16px;
+    }
+
+    .numberCCC {
+        padding-block: 90px;
+    }
+
+    .homeBDF {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contacTP1 {
+        font-size: 42px;
+    }
+
+    .contacTP2 {
+        font-size: 16px;
+    }
+
+    .fooTP {
+        font-size: 16px;
+    }
+
+    .fooTtitle {
+        font-size: 26px;
+    }
+
+    .fooTsvg1 {
+        width: 178px;
+    }
+
+    .fooTsvg2 {
+        width: 226px;
+    }
+    .aboutHeadP1{
+        font-size: 26px;
+    }
+    .aboutHeadP2{
+        font-size: 16px;
+    }
+    .abouTh1{
+        font-size: 38px;
+    }
+    .abouTp{
+       font-size: 16px;
+    }
+
+    .contactINP{
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactSpan{
+        grid-column: 1 / span 2;
+    }
+}
