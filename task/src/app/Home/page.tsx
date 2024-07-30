@@ -134,7 +134,7 @@ const Home = () => {
                 <p className='callP2'>Call Us Anytime</p>
               </div>
             </div>
-            <button className='btn1' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '45px' }}>Get Estimate <span style={{
+            <button className='btn1 btnR' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '45px' }}>Get Estimate <span style={{
               color: '#CDA274', fontWeight
                 : '600', paddingLeft: '7px'
             }}>→</span></button>
@@ -237,7 +237,7 @@ const Home = () => {
           <p className='contacTP1' style={{ textAlign: 'center', color: 'white', paddingTop: '20px', fontFamily: 'serif' }}>Wanna join the interno?</p>
           <p className='contacTP2' style={{ textAlign: 'center', padding: '10px', color: 'rgb(258,258,258,0.8)' }}>It is a long established fact  will be distracted.</p>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <Link className='btn1' href='/Contact' style={{ backgroundColor: '#CDA274', padding: "16px 22px", borderRadius: '10px', color: 'white', marginTop: '40px' }}>Contact With Us <span style={{ color: '#292F36', fontWeight: '900', paddingLeft: '7px' }}>→</span></Link>
+            <Link className='btn1 btnR' href='/Contact' style={{ backgroundColor: '#CDA274', padding: "16px 22px", borderRadius: '10px', color: 'white', marginTop: '40px' }}>Contact With Us <span style={{ color: '#292F36', fontWeight: '900', paddingLeft: '7px' }}>→</span></Link>
           </div>
         </div>
 

@@ -11,9 +11,9 @@ const About = () => {
         <div>
             <div style={{ position: 'relative' }}>
                 <img src="/aboutImg.png" style={{ width: '100%', height: '400px', backgroundPosition: 'center', objectFit: 'cover', }} alt="" />
-                <div style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white', padding: '20px 60px', borderRadius: '30px 30px 0 0', bottom: '0px' }}>
-                    <p style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', fontSize: "40px" }}>About Us</p>
-                    <p style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / About Us</p>
+                <div className='pageHeadD' style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white',  borderRadius: '30px 30px 0 0', bottom: '0px' }}>
+                    <p className='pageHeadP1' style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600' }}>About Us</p>
+                    <p className='pageHeadP2' style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / About Us</p>
                 </div>
             </div>
 
@@ -34,14 +34,14 @@ const About = () => {
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: "90px", marginTop: '240px' }}>
+                <div className='aboutGap' style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between',  marginTop: '240px' }}>
                     <div style={{ width: '50%' }}>
                         <p className='abouTh1' style={{  fontFamily: 'serif', fontWeight: '600' }}>What We Do</p>
-                        <p className='abouTp' style={{ paddingTop: "35px" }}>
+                        <p className='abouTp' >
                             It is a long established fact that a reader will be distracted by the of readable content of a page
                             when lookings at its layouts the points of using
                             that it has a more-or-less normal.</p>
-                        <button className='btn1' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}>Our Concept <span style={{
+                        <button className='btn1 btnR' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}>Our Concept <span style={{
                             color: '#CDA274', fontWeight
                                 : '600', paddingLeft: '7px'
                         }}>→</span></button>
@@ -51,15 +51,15 @@ const About = () => {
 
 
 
-                <div style={{ display: 'flex', paddingBottom: "120px", alignItems: 'center', justifyContent: 'space-between', gap: "90px", marginTop: '140px' }}>
+                <div className='aboutGap' style={{ display: 'flex', paddingBottom: "120px", alignItems: 'center', justifyContent: 'space-between',  marginTop: '140px' }}>
                     <img src="/aboutImg3.png" style={{ width: '50%', borderRadius: "55px" }} />
                     <div style={{ width: '50%' }}>
                         <p className='abouTh1' style={{  fontFamily: 'serif', fontWeight: '600' }}>The End Result</p>
-                        <p className='abouTp' style={{ paddingTop: "35px" }}>
+                        <p className='abouTp' >
                             It is a long established fact that a reader will be distracted by the of readable content of a page
                             when lookings at its layouts the points of using
                             that it has a more-or-less normal.</p>
-                        <button className='btn1' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}>Our Portfolio <span style={{
+                        <button className='btn1 btnR' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}>Our Portfolio <span style={{
                             color: '#CDA274', fontWeight
                                 : '600', paddingLeft: '7px'
                         }}>→</span></button>

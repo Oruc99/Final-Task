@@ -20,7 +20,7 @@ const BlogDetails = () => {
         <img src="/blogDetailsImg.png" style={{ width: '100%', height: '400px', backgroundPosition: 'center', objectFit: 'cover', }} alt="" />
       </div>
 
-      <div style={{ width: '1050px', borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
+      <div className='containeR' style={{  borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
 
         <div style={{ paddingTop: '150px', display: 'flex', justifyContent: 'space-between' }}>
           <div style={{ width: '66%', }}>

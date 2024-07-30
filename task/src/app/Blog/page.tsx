@@ -66,29 +66,29 @@ const Blog = () => {
     <div>
       <div style={{ position: 'relative' }}>
         <img src="blogImg.png" style={{ width: '100%', height: '400px', backgroundPosition: 'center', objectFit: 'cover', }} alt="" />
-        <div style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white', padding: '20px 60px', borderRadius: '30px 30px 0 0', bottom: '0px' }}>
-          <p style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', fontSize: "40px" }}>Articles & News</p>
-          <p style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Blog</p>
+        <div className='pageHeadD' style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white',  borderRadius: '30px 30px 0 0', bottom: '0px' }}>
+          <p className='pageHeadP1' style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', }}>Articles & News</p>
+          <p className='pageHeadP2' style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Blog</p>
         </div>
       </div>
 
 
-      <div className='containeR' style={{ width: '1050px', borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
+      <div className='containeR' style={{  borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
         <p style={{ fontWeight: '600', fontSize: "38px", fontFamily: 'serif', paddingTop: '140px' }}>Latest Post</p>
         {
           oneImg.map((e, i) => {
-            return <div key={i} style={{ border: '1px solid rgb(0,0,0,0.1)', borderRadius: '30px', width: '100%', marginTop: '15px', padding: '20px', display: 'flex', gap: '40px', alignItems: 'center', justifyContent: 'space-between' }}>
+            return <div className='blogGaP' key={i} style={{ border: '1px solid rgb(0,0,0,0.1)', borderRadius: '30px', width: '100%', marginTop: '15px', padding: '20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
               <img src={e.img} style={{ width: '50%', borderRadius: '30px' }} />
               <div style={{ paddingRight: '20px' }}>
-                <p style={{ fontWeight: '600', fontSize: "25px", fontFamily: 'serif' }}>{e.desc}</p>
-                <p style={{ opacity: '0.9', paddingTop: '20px' }}>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim maximus.posuere in.Contrary to popular belief.</p>
-                <p style={{ opacity: '0.9', paddingTop: '22px' }}>Lorem Ipsum is not simply random text. It has roots in a piece of classica.</p>
+                <p className='blogTitle' style={{ fontWeight: '600',  fontFamily: 'serif' }}>{e.desc}</p>
+                <p className='blogInfo' style={{ opacity: '0.9',  }}>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim maximus.posuere in.Contrary to popular belief.</p>
+                <p className='blogInfo' style={{ opacity: '0.9',  }}>Lorem Ipsum is not simply random text. It has roots in a piece of classica.</p>
                 <div style={{ display: 'flex', alignItems: 'center', marginTop: '20px', justifyContent: "space-between" }}>
-                  <p>{e.date}</p>
+                  <p className='blogInfo2' style={{opacity:'0.9'}}>{e.date}</p>
                   <div>
                     <Link href='/BlogDetails'>
-                      <div className='linkH1' style={{ width: "50px", height: '50px', display: 'flex', backgroundColor: '#F4F0EC', justifyContent: 'center', alignItems: 'center', borderRadius: '100%', }}>
-                        <ArrowForwardIosIcon style={{ width: '25px', height: '25px' }}></ArrowForwardIosIcon>
+                      <div className='linkH1 blogBtn1' style={{ display: 'flex', backgroundColor: '#F4F0EC', justifyContent: 'center', alignItems: 'center', borderRadius: '100%', }}>
+                        <ArrowForwardIosIcon className='blogArrow' ></ArrowForwardIosIcon>
                       </div>
                     </Link>
                   </div>

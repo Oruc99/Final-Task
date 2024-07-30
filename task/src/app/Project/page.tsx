@@ -8,7 +8,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import Link from 'next/link'
 import { Pagination, PaginationItem, Stack } from '@mui/material';
 import PFixed from '../../../Components/PFixed/page';
-import { Height } from '@mui/icons-material';
+import { BorderAll, Height } from '@mui/icons-material';
 
 const Project = () => {
     const [value, setValue] = React.useState('2');
@@ -26,10 +26,10 @@ const Project = () => {
     const yoxlama = () => {
         if (value == '2') {
             return <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: "30px " }}>
+                <div className='projectMC' style={{ display: 'grid',  gap: "30px " }}>
                     <div>
                         <div>
-                            <img src="/projectD1.png" alt="" />
+                            <img src="/projectD1.png" alt="" style={{height:"530px",width:"100%",objectFit:'cover'}} />
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '20px' }}>
                                 <div>
                                     <p style={{ fontSize: '22px', fontWeight: '600', fontFamily: 'serif' }}>Minimal Bedroom</p>
@@ -196,7 +196,7 @@ const Project = () => {
             </div>
         }
         else if (value == '1') {
-            return <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: "30px " }}>
+            return <div className='projectMC' style={{ display: 'grid',  gap: "30px " }}>
                 <div>
                     <div>
                         <img src="/projectDD1.webp" style={{ width: '100%' ,height:'340px',objectFit:'cover'}} />
@@ -362,7 +362,7 @@ const Project = () => {
             </div>
         }
         else if (value == '3') {
-            return <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: "30px " }}>
+            return <div className='projectMC' style={{ display: 'grid', gap: "30px " }}>
                 <div>
                     <div>
                         <img src="/projectKitchan1.webp" style={{ width: '100%' }} />
@@ -528,7 +528,7 @@ const Project = () => {
             </div>
         }
         else if (value == '4') {
-            return <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: "30px " }}>
+            return <div className='projectMC' style={{ display: 'grid', gap: "30px " }}>
                 <div>
                     <div>
                         <img src="/projectLiving1.jpg" style={{ width: '100%' }} />
@@ -701,23 +701,23 @@ const Project = () => {
     return (
         <div>
             <div style={{ position: 'relative' }}>
-                <img src="https://s3-alpha-sig.figma.com/img/7ccf/2faf/d318a350c4848f6d8512052a3c5eac84?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mXvvqJv4Nxc36gPxvAjnQSCtt47Jp30EtWshqr8HL2LFZY9WYouAOL2jjFCUXnx58cznT-PdgQu6fZXEr0soF1u7rTC45V4bDS14B~toWnpejqTQWHT7hR02UGeTXsK-IBr32lgRoDAVrMD3v-QLm5w~mNCePpZCEL0gQuWN~ZJdkCH~ButKwtmx7GCQTuOXi1rtAmBzyu4LrzlnnEXfRsrdtNCoHTatP5qcbCTl-cCWddZcGZ5peo4pJRqgrxTEmmb630CUor5Eeta3pR8soGfbwgWwOKLch9L9eEECYZHFUitFY6V-F4tPWmheAuD0wIMPXhbMDLYEibphIPKb9A__" style={{ width: '100%', height: '400px', backgroundPosition: 'center', objectFit: 'cover', }} alt="" />
-                <div style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white', padding: '20px 60px', borderRadius: '30px 30px 0 0', bottom: '0px' }}>
-                    <p style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', fontSize: "40px" }}>Our Project</p>
-                    <p style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Project</p>
+                <img src="./projecTimg.png" style={{ width: '100%', height: '400px', backgroundPosition: 'center', objectFit: 'cover', }} alt="" />
+                <div className='pageHeadD' style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white',  borderRadius: '30px 30px 0 0', bottom: '0px' }}>
+                    <p className='pageHeadP1' style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600',  }}>Our Project</p>
+                    <p className='pageHeadP2' style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Project</p>
                 </div>
             </div>
 
-            <div className='containeR' style={{ width: '1050px', borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
+            <div className='containeR' style={{ borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
                 <div style={{ paddingTop: '120px', display: 'flex', justifyContent: 'center' }}>
-                    <div>
+                    <div >
                         <TabContext value={value} >
                             <Box >
-                                <TabList TabIndicatorProps={{ style: { display: 'none' } }} style={{ border: '2px solid #CDA274', marginBottom: '90px', borderRadius: '20px' }} onChange={handleChange} aria-label="lab API tabs example">
-                                    <Tab style={{ transition: '300ms', borderRadius: '15px', paddingInline: '32px', color: value == '1' ? 'white' : 'black', backgroundColor: value == '1' ? '#CDA274' : 'white' }} label="Bathroom" value="1" />
-                                    <Tab style={{ transition: '300ms', borderRadius: '15px', paddingInline: '32px', color: value == '2' ? 'white' : 'black', backgroundColor: value == '2' ? '#CDA274' : 'white' }} label="Bed Room" value="2" />
-                                    <Tab style={{ transition: '300ms', borderRadius: '15px', paddingInline: '32px', color: value == '3' ? 'white' : 'black', backgroundColor: value == '3' ? '#CDA274' : 'white' }} label="Kitchan" value="3" />
-                                    <Tab style={{ transition: '300ms', borderRadius: '15px', paddingInline: '32px', color: value == '4' ? 'white' : 'black', backgroundColor: value == '4' ? '#CDA274' : 'white' }} label="Living Area" value="4" />
+                                <TabList TabIndicatorProps={{ style: { display: 'none' } }} style={{ border: '2px solid #CDA274', marginBottom: '90px', borderRadius: '20px', }} onChange={handleChange} aria-label="lab API tabs example">
+                                    <Tab className='projectTab' style={{ transition: '300ms', borderRadius: '15px', color: value == '1' ? 'white' : 'black', backgroundColor: value == '1' ? '#CDA274' : 'white' }} label="Bathroom" value="1" />
+                                    <Tab className='projectTab' style={{ transition: '300ms', borderRadius: '15px', color: value == '2' ? 'white' : 'black', backgroundColor: value == '2' ? '#CDA274' : 'white' }} label="Bed Room" value="2" />
+                                    <Tab className='projectTab' style={{ transition: '300ms', borderRadius: '15px', color: value == '3' ? 'white' : 'black', backgroundColor: value == '3' ? '#CDA274' : 'white' }} label="Kitchan" value="3" />
+                                    <Tab className='projectTab' style={{ transition: '300ms', borderRadius: '15px', color: value == '4' ? 'white' : 'black', backgroundColor: value == '4' ? '#CDA274' : 'white' }} label="Living Area" value="4" />
                                 </TabList>
                             </Box>
                             <TabPanel value="1"></TabPanel>

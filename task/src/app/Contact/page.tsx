@@ -9,17 +9,17 @@ const Contact = () => {
     <div>
       <div style={{ position: 'relative' }}>
         <img src="/contactImg.png" style={{ width: '100%', height: '400px', filter: 'contrast(105%)', backgroundPosition: 'center', objectFit: 'cover', }} alt="" />
-        <div style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white', padding: '20px 60px', borderRadius: '30px 30px 0 0', bottom: '0px' }}>
-          <p style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', fontSize: "40px" }}>Contact Us</p>
-          <p style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Contact</p>
+        <div className='pageHeadD' style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white',  borderRadius: '30px 30px 0 0', bottom: '0px' }}>
+          <p className='pageHeadP1' style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', }}>Contact Us</p>
+          <p className='pageHeadP2' style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Contact</p>
         </div>
       </div>
 
-      <div  className='containeR' style={{ width: '1050px', borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
-        <p style={{ fontSize: '38px', fontFamily: 'serif', fontWeight: '600', textAlign: 'center', paddingTop: '160px' }}>We love meeting new people <br />and helping them.</p>
+      <div  className='containeR' style={{ borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
+        <p className='peopleThinkH1' style={{  fontFamily: 'serif', fontWeight: '600', textAlign: 'center', paddingTop: '160px' }}>We love meeting new people <br />and helping them.</p>
 
-        <div style={{ display: 'flex', gap: "24px", paddingTop: "130px" }}>
-          <div style={{ padding: "65px 35px", backgroundColor: '#F4F0EC', borderRadius: '30px' }}>
+        <div style={{ display: 'flex',alignItems:'center', gap: "24px", paddingTop: "130px" }}>
+          <div className='contactInfo' style={{ padding: "65px 35px", backgroundColor: '#F4F0EC', borderRadius: '30px' }}>
             <div style={{ display: 'flex', gap: '17px', alignItems: 'center' }}>
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="26" cy="26" r="26" fill="white" />
@@ -64,12 +64,12 @@ const Contact = () => {
 
           </div>
 
-          <Box style={{ display: 'grid', width: "100%", gap: '40px 10px',  }}>
-            <TextField id="standard-basic" label="Name" variant="standard" style={{ marginRight: '17px' }} />
-            <TextField id="standard-basic" label="Email" variant="standard" />
-            <TextField id="standard-basic" label="Subject" variant="standard" style={{ marginRight: '17px' }} />
-            <TextField id="standard-basic" label="Phone" variant="standard" />
-            <TextField style={{ gridColumn: '1 /span 2', marginTop: '20px' }}
+          <Box className="contactBox" style={{ display: 'grid', width: "100%", gap: '40px 10px',  }}>
+            <TextField className="textField" id="standard-basic" label="Name" variant="standard" style={{ marginRight: '17px' }} />
+            <TextField className="textField" id="standard-basic" label="Email" variant="standard" />
+            <TextField className="textField" id="standard-basic" label="Subject" variant="standard" style={{ marginRight: '17px' }} />
+            <TextField className="textField" id="standard-basic" label="Phone" variant="standard" />
+            <TextField className="textField contactSpaN" style={{ marginTop: '20px' }}
               id="standard-multiline-static"
               label="Message"
               multiline
@@ -80,14 +80,14 @@ const Contact = () => {
           </Box>
         </div>
         <div style={{ display: 'flex', justifyContent: 'end' }}>
-          <button className='btn1' style={{ backgroundColor: '#292F36', padding: "16px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}>Send Now <span style={{
+          <button className='btn1 cBtn2 btnR' style={{ backgroundColor: '#292F36', padding: "16px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}>Send Now <span style={{
             color: '#CDA274', fontWeight
               : '600', paddingLeft: '7px'
           }}>→</span></button>
         </div>
 
-        <div style={{ position: 'relative', marginBottom: '40px' }}>
-          <img src="/contactMap.png" style={{ borderRadius: '30px', marginTop: '170px', objectFit: "cover", height: '430px', width: '100%' }} />
+        <div style={{ position: 'relative', paddingBottom: '40px' }}>
+          <img className='contactImGG' src="/contactMap.png" style={{ borderRadius: '30px', marginTop: '170px', objectFit: "cover",  width: '100%' }} />
           <svg style={{ position: 'absolute', top: "35%", left: '25%' }} width="38" height="54" viewBox="0 0 38 54" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M19 0C29.4892 0 38 7.77576 38 17.3571C38 32.7857 19 54 19 54C19 54 0 32.7857 0 17.3571C0 7.77576 8.51081 0 19 0ZM19 27C20.5031 27 21.9725 26.5476 23.2223 25.6999C24.4721 24.8523 25.4463 23.6474 26.0215 22.2378C26.5967 20.8282 26.7472 19.2772 26.454 17.7807C26.1607 16.2843 25.4369 14.9098 24.374 13.8309C23.3111 12.752 21.9569 12.0173 20.4827 11.7197C19.0084 11.422 17.4803 11.5748 16.0916 12.1586C14.7029 12.7425 13.5159 13.7313 12.6808 14.9999C11.8457 16.2685 11.4 17.76 11.4 19.2857C11.4022 21.331 12.2036 23.2918 13.6284 24.7381C15.0532 26.1843 16.985 26.9978 19 27Z" fill="#CDA274" />
           </svg>

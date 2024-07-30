@@ -19,6 +19,7 @@
 
 .linkH1:hover {
     border: 1px solid rgb(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 .btnB {
@@ -36,6 +37,7 @@
     background-color: rgb(225, 225, 225);
     cursor: pointer;
 }
+
 .navLinkH:hover {
     transform: translate(20px);
 }
@@ -56,9 +58,7 @@
 
 
 
-.blogCC {
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 
 
@@ -68,7 +68,26 @@
         width: 930px;
     }
 
+    .SSHeadH2 {
+        display: none;
+    }
+
+    .SSWidth1 {
+        width: 45%;
+    }
+
+    .SSWidth2 {
+        width: 55%;
+    }
+
     .navbarC {
+        display: flex;
+    }
+
+    .contactImGG {
+        height: 430px;
+    }
+    .S2Gap{
         display: flex;
     }
 
@@ -115,6 +134,10 @@
 
     .peopleThinK {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .SSFG {
+        display: flex;
     }
 
     .peopleThinkPP1 {
@@ -188,23 +211,193 @@
     .fooTsvg2 {
         width: 226px;
     }
-    .aboutHeadP1{
+
+    .aboutHeadP1 {
         font-size: 24px;
     }
-    .aboutHeadP2{
+
+    .aboutHeadP2 {
         font-size: 15px;
     }
-    .abouTh1{
+
+    .abouTh1 {
         font-size: 34px;
     }
-    .abouTp{
-       font-size: 15px;
+
+    .abouTp {
+        font-size: 15px;
+        padding-top: 35px;
     }
-    .contactINP{
+
+    .contactINP {
         grid-template-columns: 1fr 1fr;
     }
-    .contactSpan{
+
+    .contactSpan {
         grid-column: 1 / span 2;
+    }
+
+    .servicesHeaD {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .servicesInfoP {
+        font-size: 15px;
+    }
+
+    .servicesWorkImg {
+        height: 380px;
+    }
+
+    .servicesWorkH1 {
+        font-size: 34px;
+    }
+
+    .servicesWorkInfo {
+        font-size: 16px;
+    }
+
+    .servicesMain svg {
+        width: 90px;
+        height: 90px;
+    }
+
+    .projectMC {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projectTab {
+        padding-inline: 32px;
+    }
+
+    .blogTitle {
+        font-size: 25px;
+    }
+
+    .blogInfo {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .blogBtn1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .blogArrow {
+        width: 25px;
+        height: 25px;
+    }
+
+    .blogInfo2 {
+        font-size: 16px;
+    }
+
+    .blogCC {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contactBox {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contactSpaN {
+        grid-column: 1 / span 2;
+    }
+
+    .contactInfo {
+        display: block;
+    }
+
+    .btnR {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .logoSvgC {
+        display: none;
+    }
+
+    .logoSvgH {
+        display: block;
+    }
+
+    .peopleThinkResC {
+        display: grid;
+    }
+
+    .peopleThinkResH {
+        display: none;
+    }
+
+    .peopleThinkImgRes {
+        width: 500px;
+    }
+
+    .pageHeadD {
+        padding: 18px 55px;
+    }
+
+    .pageHeadP1 {
+        font-size: 36px;
+    }
+
+    .pageHeadP2 {
+        font-size: 15px;
+    }
+
+    .aboutGap {
+        gap: 80px;
+    }
+
+    .servicesMain {
+        padding-inline: 85px;
+    }
+
+    .servicesGap {
+        gap: 70px;
+    }
+
+    .blogGaP {
+        gap: 40px;
+    }
+
+    .SSp1 {
+        font-size: 15px;
+        padding-top: 30px;
+    }
+
+    .SSHeadH1 {
+        font-size: 43px;
+    }
+
+    .SSImG {
+        height: 400px;
+    }
+
+    .columnsP {
+        font-size: 35px;
+    }
+
+    .columnsP2 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .S2img {
+        height: 400px;
+    }
+
+    .S2p1 {
+        font-size: 38px;
+    }
+
+    .S2p2 {
+        font-size: 16px;
+    }
+
+    .S2Gap {
+        gap: 60px;
     }
 }
 
@@ -333,26 +526,158 @@
     .fooTsvg2 {
         width: 196px;
     }
-    .aboutHeadP1{
+
+    .aboutHeadP1 {
         font-size: 20px;
     }
-    .aboutHeadP2{
+
+    .aboutHeadP2 {
         font-size: 14px;
     }
-    .abouTh1{
+
+    .abouTh1 {
         font-size: 31px;
     }
-    .abouTp{
-       font-size: 14px;
+
+    .abouTp {
+        font-size: 14px;
     }
-    .contactINP{
+
+    .contactINP {
         grid-template-columns: 1fr 1fr;
     }
-    .contactSpan{
+
+    .contactSpan {
         grid-column: 1 / span 2;
     }
- 
+
+    .servicesHeaD {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .servicesInfoP {
+        font-size: 18px;
+    }
+
+    .servicesWorkImg {
+        height: 350px;
+    }
+
+    .servicesWorkH1 {
+        font-size: 31px;
+    }
+
+    .servicesWorkInfo {
+        font-size: 14px;
+    }
+
+    .servicesMain svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .projectMC {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projectTab {
+        padding-inline: 32px;
+    }
+
+    .blogTitle {
+        font-size: 20px;
+    }
+
+    .blogInfo {
+        font-size: 14px;
+        padding-top: 18px;
+    }
+
+    .blogBtn1 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .blogArrow {
+        width: 22px;
+        height: 22px;
+    }
+
+    .blogInfo2 {
+        font-size: 14px;
+    }
+
+    .blogCC {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contactBox {
+        grid-template-columns: 1fr;
+    }
+
+    .contactSpaN {
+        grid-column: 1;
+    }
+
+    .textField {
+        margin-right: 17px;
+    }
+
+    .cBtn2 {
+        margin-right: 17px;
+    }
+
+    .logoSvgC {
+        display: block;
+    }
+
+    .logoSvgH {
+        display: none;
+    }
+
+    .peopleThinkResC {
+        display: none;
+    }
+
+    .peopleThinkResH {
+        display: block;
+    }
+
+    .aboutGap {
+        gap: 55px;
+    }
+
+    .SSp1 {
+        font-size: 13px;
+    }
+
+    .SSHeadH1 {
+        font-size: 36px;
+    }
+
+    .columnsP {
+        font-size: 32px;
+    }
+
+    .columnsP2 {
+        font-size: 15px;
+    }
+
+    .S2img {
+        height: 330px;
+    }
+    .S2p1 {
+        font-size: 32px;
+    }
+    .S2p2 {
+        font-size: 15px;
+    }
+    .S2Gap {
+        gap: 53px;
+    }
 }
+
+
 
 @media(max-width:870px) {
     .containeR {
@@ -463,6 +788,7 @@
     .contacTP2 {
         font-size: 14px;
     }
+
     .fooTP {
         font-size: 12px;
     }
@@ -478,26 +804,155 @@
     .fooTsvg2 {
         width: 180px;
     }
-    .aboutHeadP1{
+
+    .aboutHeadP1 {
         font-size: 16px;
     }
-    .aboutHeadP2{
+
+    .aboutHeadP2 {
         font-size: 12px;
     }
-    .abouTh1{
+
+    .abouTh1 {
         font-size: 25px;
     }
-    .abouTp{
-       font-size: 10px;
+
+    .abouTp {
+        font-size: 10px;
     }
-    .contactINP{
+
+    .contactINP {
         grid-template-columns: 1fr 1fr;
     }
-    .contactSpan{
+
+    .contactSpan {
         grid-column: 1 / span 2;
     }
-  
+
+    .servicesHeaD {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .servicesInfoP {
+        font-size: 15px;
+    }
+
+    .servicesWorkImg {
+        height: 300px;
+    }
+
+    .servicesWorkH1 {
+        font-size: 27px;
+    }
+
+    .servicesWorkInfo {
+        font-size: 10px;
+    }
+
+    .servicesMain svg {
+        width: 63px;
+        height: 60px;
+    }
+
+    .projectMC {
+        grid-template-columns: 1fr;
+    }
+
+    .projectTab {
+        padding-inline: 24px;
+        font-size: 13px;
+
+    }
+
+    .blogTitle {
+        font-size: 15px;
+    }
+
+    .blogInfo {
+        font-size: 10px;
+        padding-top: 16px;
+    }
+
+    .blogInfo2 {
+        font-size: 12px;
+    }
+
+    .blogBtn1 {
+        width: 42px;
+        height: 42px;
+    }
+
+    .blogArrow {
+        width: 20px;
+        height: 20px;
+    }
+
+    .blogCC {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contactInfo {
+        display: none;
+    }
+
+    .btnR {
+        font-size: 10px;
+    }
+
+    .peopleThinkImgRes {
+        width: 370px;
+    }
+
+    .pageHeadD {
+        padding: 15px 45px;
+    }
+
+    .pageHeadP1 {
+        font-size: 32px;
+    }
+
+    .pageHeadP2 {
+        font-size: 12px;
+    }
+
+    .aboutGap {
+        gap: 35px;
+    }
+
+    .SSp1 {
+        font-size: 11px;
+        padding-top: 25px;
+    }
+
+    .SSHeadH1 {
+        font-size: 30px;
+    }
+
+    .SSImG {
+        height: 330px;
+    }
+
+    .columnsP {
+        font-size: 28px;
+    }
+
+    .columnsP2 {
+        font-size: 13px;
+    }
+    .S2img {
+        height: 300px;
+    }
+    .S2p1 {
+        font-size: 26px;
+    }
+    .S2p2 {
+        font-size: 14px;
+    }
+    .S2Gap {
+        gap: 40px;
+    }
 }
+
 
 @media(max-width:730px) {
     .containeR {
@@ -620,30 +1075,170 @@
     .fooTsvg2 {
         width: 148px;
     }
-    .aboutHeadP1{
+
+    .aboutHeadP1 {
         font-size: 13px;
     }
-    .aboutHeadP2{
+
+    .aboutHeadP2 {
         font-size: 10px;
     }
-    .abouTh1{
+
+    .abouTh1 {
         font-size: 22px;
     }
-    .abouTp{
-       font-size: 7px;
+
+    .abouTp {
+        font-size: 7px;
     }
-    .contactINP{
-        grid-template-columns:  1fr;
+
+    .contactINP {
+        grid-template-columns: 1fr;
     }
-    .contactSpan{
-        grid-column: 1 ;
+
+    .contactSpan {
+        grid-column: 1;
     }
-  
+
+    .servicesHeaD {
+        grid-template-columns: 1fr;
+    }
+
+    .servicesInfoP {
+        font-size: 18px;
+    }
+
+    .servicesWorkImg {
+        height: 280px;
+    }
+
+    .servicesWorkH1 {
+        font-size: 24px;
+    }
+
+    .servicesWorkInfo {
+        font-size: 7px;
+        margin-top: 7px;
+    }
+
+    .servicesMain svg {
+        width: 47px;
+        height: 50px;
+    }
+
+    .projectTab {
+        padding-inline: 20px;
+        font-size: 10px;
+
+    }
+
+    .blogTitle {
+        font-size: 11px;
+    }
+
+    .blogInfo {
+        font-size: 7px;
+        padding-top: 11px;
+    }
+
+    .blogInfo2 {
+        font-size: 8px;
+    }
+
+    .blogBtn1 {
+        width: 38px;
+        height: 38px;
+    }
+
+    .blogArrow {
+        width: 15px;
+        height: 15px;
+    }
+
+    .blogCC {
+        grid-template-columns: 1fr;
+    }
+
+    .peopleThinkImgRes {
+        width: 300px;
+    }
+
+    .pageHeadD {
+        padding: 13px 42px;
+    }
+
+    .pageHeadP1 {
+        font-size: 28px;
+    }
+
+    .pageHeadP2 {
+        font-size: 10px;
+    }
+
+    .aboutGap {
+        gap: 30px;
+    }
+
+    .servicesMain {
+        padding-inline: 55px;
+    }
+
+    .servicesGap {
+        gap: 50px;
+    }
+
+    .blogGaP {
+        gap: 30px;
+    }
+
+    .contactImGG {
+        height: 330px;
+    }
+
+    .SSp1 {
+        font-size: 8px;
+        padding-top: 20px;
+    }
+
+    .SSHeadH1 {
+        font-size: 24px;
+    }
+
+    .columnsP {
+        font-size: 25px;
+    }
+
+    .columnsP2 {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .S2img {
+        height: 270px;
+    }
+    .S2p1 {
+        font-size: 20px;
+    }
+    .S2p2 {
+        font-size: 11px;
+    }
+    .S2Gap {
+        gap: 30px;
+    }
+   
 }
 
 @media(max-width:600px) {
     .containeR {
         width: 400px;
+    }
+
+    .columnsP {
+        font-size: 22px;
+    }
+
+    .columnsP2 {
+        font-size: 7px;
+        padding-top: 8px;
     }
 
     .navbarC {
@@ -664,6 +1259,18 @@
 
     .homeHeadImg {
         height: 550px;
+    }
+    .S2img {
+        height: 230px;
+    }
+    .S2p1 {
+        font-size: 17px;
+    }
+    .S2p2 {
+        font-size: 9px;
+    }
+    .S2Gap {
+        gap: 15px;
     }
 
     .createArt img {
@@ -746,6 +1353,7 @@
     .contacTP2 {
         font-size: 12px;
     }
+
     .fooTP {
         font-size: 7px;
     }
@@ -761,11 +1369,99 @@
     .fooTsvg2 {
         width: 118px;
     }
-    .aboutHeadP1{
+
+    .aboutHeadP1 {
         font-size: 10px;
     }
-    .aboutHeadP2{
+
+    .aboutHeadP2 {
         font-size: 9px;
+    }
+
+    .servicesHeaD {
+        grid-template-columns: 1fr;
+    }
+
+    .servicesInfoP {
+        font-size: 18px;
+    }
+
+    .blogTitle {
+        font-size: 7px;
+    }
+
+    .blogInfo {
+        font-size: 7px;
+        padding-top: 8px;
+    }
+
+    .blogInfo2 {
+        font-size: 7px;
+    }
+
+    .blogBtn1 {
+        width: 38px;
+        height: 38px;
+    }
+
+    .blogArrow {
+        width: 15px;
+        height: 15px;
+    }
+
+    .btnR {
+        font-size: 8px;
+    }
+
+    .peopleThinkImgRes {
+        width: 250px;
+    }
+
+    .abouTh1 {
+        font-size: 18px;
+    }
+
+    .abouTp {
+        font-size: 7px;
+        padding-top: 18px;
+    }
+
+    .servicesMain {
+        padding-inline: 40px;
+    }
+
+    .servicesGap {
+        gap: 35px;
+    }
+
+    .blogGaP {
+        gap: 20px;
+    }
+
+    .SSp1 {
+        font-size: 8px;
+        padding-top: 25px;
+    }
+
+    .SSHeadH1 {
+        font-size: 24px;
+        display: none;
+    }
+
+    .SSHeadH2 {
+        display: block;
+    }
+
+    .SSWidth1 {
+        width: 100%;
+    }
+
+    .SSWidth2 {
+        width: 100%;
+    }
+
+    .SSFG {
+        display: grid;
     }
 }
 
@@ -776,7 +1472,22 @@
         width: 1050px;
     }
 
+    .contactImGG {
+        height: 430px;
+    }
+
+    .SSHeadH2 {
+        display: none;
+    }
+
+    .SSFG {
+        display: flex;
+    }
+
     .navbarC {
+        display: flex;
+    }
+    .S2Gap{
         display: flex;
     }
 
@@ -896,23 +1607,196 @@
     .fooTsvg2 {
         width: 226px;
     }
-    .aboutHeadP1{
+
+    .aboutHeadP1 {
         font-size: 26px;
     }
-    .aboutHeadP2{
+
+    .aboutHeadP2 {
         font-size: 16px;
     }
-    .abouTh1{
+
+    .abouTh1 {
         font-size: 38px;
     }
-    .abouTp{
-       font-size: 16px;
+
+    .abouTp {
+        font-size: 16px;
+        padding-top: 35px;
     }
 
-    .contactINP{
+    .contactINP {
         grid-template-columns: 1fr 1fr;
     }
-    .contactSpan{
+
+    .contactSpan {
         grid-column: 1 / span 2;
+    }
+
+    .servicesHeaD {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .servicesInfoP {
+        font-size: 18px;
+    }
+
+    .servicesWorkImg {
+        height: 400px;
+    }
+
+    .servicesWorkH1 {
+        font-size: 36px;
+    }
+
+    .servicesWorkInfo {
+        font-size: 16px;
+    }
+
+    .servicesMain svg {
+        width: 93px;
+        height: 93px;
+    }
+
+    .projectMC {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projectTab {
+        padding-inline: 32px;
+    }
+
+    .blogTitle {
+        font-size: 25px;
+    }
+
+    .blogInfo {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .blogBtn1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .blogArrow {
+        width: 25px;
+        height: 25px;
+    }
+
+    .blogInfo2 {
+        font-size: 16px;
+    }
+
+    .blogCC {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contactBox {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contactSpaN {
+        grid-column: 1 / span 2;
+    }
+
+    .contactInfo {
+        display: block;
+    }
+
+    .btnR {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .logoSvgC {
+        display: none;
+    }
+
+    .logoSvgH {
+        display: block;
+    }
+
+    .peopleThinkResC {
+        display: grid;
+    }
+
+    .peopleThinkResH {
+        display: none;
+    }
+
+    .pageHeadD {
+        padding: 20px 60px;
+    }
+
+    .pageHeadP1 {
+        font-size: 40px;
+    }
+
+    .pageHeadP2 {
+        font-size: 16px;
+    }
+
+    .aboutGap {
+        gap: 90px;
+    }
+
+    .servicesMain {
+        padding-inline: 85px;
+    }
+
+    .servicesGap {
+        gap: 70px;
+    }
+
+    .blogGaP {
+        gap: 40px;
+    }
+
+    .SSp1 {
+        font-size: 16px;
+        padding-top: 40px;
+    }
+
+    .SSHeadH1 {
+        font-size: 45px;
+    }
+
+    .SSWidth1 {
+        width: 45%;
+    }
+
+    .SSWidth2 {
+        width: 55%;
+    }
+
+    .SSImG {
+        height: 400px;
+    }
+
+    .columnsP {
+        font-size: 35px;
+    }
+
+    .columnsP2 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .S2img {
+        height: 400px;
+    }
+
+    .S2p1 {
+        font-size: 38px;
+    }
+
+    .S2p2 {
+        font-size: 16px;
+    }
+
+    .S2Gap {
+        gap: 60px;
     }
 }

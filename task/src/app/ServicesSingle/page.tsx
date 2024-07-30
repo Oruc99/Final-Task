@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import PFixed from '../../../Components/PFixed/page'
 import LogoSvg from '../../../Components/LogoSvg/page'
@@ -6,25 +7,25 @@ import NumbersC from '../../../Components/NumbersC/page'
 const ServicesSingle = () => {
     let numbers = [
         {
-          nuum: '12',
-          info: "Years Of Experiance",
-          borderRifht: '2px solid #CDA274',
+            nuum: '12',
+            info: "Years Of Experiance",
+            borderRifht: '2px solid #CDA274',
         },
         {
-          nuum: '85',
-          info: "Success project",
-          borderRifht: '2px solid #CDA274',
+            nuum: '85',
+            info: "Success project",
+            borderRifht: '2px solid #CDA274',
         },
         {
-          nuum: '15',
-          info: "Active Project",
-          borderRifht: '2px solid #CDA274',
+            nuum: '15',
+            info: "Active Project",
+            borderRifht: '2px solid #CDA274',
         },
         {
-          nuum: '95',
-          info: "Happy CUstomers",
+            nuum: '95',
+            info: "Happy CUstomers",
         },
-      ]
+    ]
     let column1 = [
         {
             desc: 'We provide high quality design services.'
@@ -63,22 +64,23 @@ const ServicesSingle = () => {
         <div>
             <div style={{ position: 'relative' }}>
                 <img src="/servicesSingleImg.png" style={{ width: '100%', height: '400px', backgroundPosition: 'center', objectFit: 'cover', }} alt="" />
-                <div style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white', padding: '20px 60px', borderRadius: '30px 30px 0 0', bottom: '0px' }}>
-                    <p style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', fontSize: "40px" }}>Services Single</p>
-                    <p style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Services Single</p>
+                <div className='pageHeadD' style={{ position: 'absolute', left: '50%', translate: '-50% 0px', backgroundColor: 'white', borderRadius: '30px 30px 0 0', bottom: '0px' }}>
+                    <p className='pageHeadP1' style={{ color: "black", textAlign: 'center', fontFamily: 'serif', fontWeight: '600', }}>Services Single</p>
+                    <p className='pageHeadP2' style={{ color: "black", textAlign: 'center', opacity: '0.9' }}>Home / Services Single</p>
                 </div>
             </div>
 
-            <div style={{ width: '1050px', borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: '160px' }}>
-                    <div style={{ width: '45%' }}>
-                        <p style={{ fontSize: '45px', fontFamily: 'serif', fontWeight: '600', }}>We set the trends of <br />modern living<br />Services.</p>
+            <div className='containeR' style={{ borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto',paddingBottom:'90px' }}>
+                <div className='SSFG' style={{  justifyContent: 'space-between', paddingTop: '160px' }}>
+                    <div className='SSWidth1' >
+                        <p className='SSHeadH1' style={{  fontFamily: 'serif', fontWeight: '600', }}>We set the trends of <br />modern living<br />Services.</p>
+                        <p className='SSHeadH2' style={{  fontFamily: 'serif', fontWeight: '600', }}>We set the trends of modern <br/> living Services.</p>
                     </div>
-                    <div style={{ width: '55%' }}>
-                        <p style={{ color: '#CDA274', paddingTop: '10px' }}>It is a long established fact that a reader will be distracted by the of readable content of a page</p>
-                        <p style={{ opacity: '0.8', paddingTop: '32px', textAlign: 'justify' }}>when lookings at its layouts the points spriof using that it has a more
+                    <div className='SSWidth2' >
+                        <p className='SSp1' style={{ color: '#CDA274', paddingTop: '10px' }}>It is a long established fact that a reader will be distracted by the of<br/> readable content of a page</p>
+                        <p className='SSp1' style={{ opacity: '0.8', textAlign: 'justify' }}>when lookings at its layouts the points spriof using that it has a more
                             less normal.A wonderful serenity has taken pgossession of my entire soul, like thesce sweet morndsings of sphring which I enjoy with my forwhole heart. I am alone, and feel the charm of excgistence in this spot, which was created for the bliss of souls like mine</p>
-                        <p style={{ opacity: '0.8', paddingTop: '32px', textAlign: 'justify' }}>when lookings at its layouts the points spriof using that it has a more
+                        <p className='SSp1' style={{ opacity: '0.8', textAlign: 'justify' }}>when lookings at its layouts the points spriof using that it has a more
                             less normal.A wonderful serenity has taken pgossession of my entire soul, like thesce sweet morndsings of sphring which I enjoy with my forwhole heart. I am alone, and feel the charm of excgistence in this spot, which was created for the bliss of souls like mine.</p>
                     </div>
                 </div>
@@ -86,7 +88,7 @@ const ServicesSingle = () => {
                 <LogoSvg />
 
                 <div style={{ position: 'relative' }}>
-                    <img style={{ width: '100%', height: '400px', borderRadius: '30px', objectFit: 'cover', marginTop: '180px' }} src="/servicesSingleImgg1.png" alt="" />
+                    <img className='SSImG' style={{ width: '100%', borderRadius: '30px', objectFit: 'cover', marginTop: '180px' }} src="/servicesSingleImgg1.png" alt="" />
                     <svg style={{ position: 'absolute', top: '50%', left: '50%', translate: '-50% -50%' }} width="132" height="132" viewBox="0 0 172 172" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_d_1_2163)">
                             <circle cx="86" cy="76" r="66" fill="white" />
@@ -113,10 +115,10 @@ const ServicesSingle = () => {
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                         <div style={{ width: '49%', display: 'flex', justifyContent: 'center' }}>
                             <div >
-                                <p style={{ fontSize: '35px', paddingBottom: '5px', fontFamily: 'serif', fontWeight: '600', }}>Use of Interior</p>
+                                <p className="columnsP" style={{  paddingBottom: '5px', fontFamily: 'serif', fontWeight: '600', }}>Use of Interior</p>
                                 {
                                     column1.map((e, i) => {
-                                        return <p key={i} style={{ opacity: '0.9', paddingTop: '20px', }}><span style={{ paddingRight: '15px', fontSize: '20px', color: '#CDA274', fontFamily: 'serif' }}>{i + 1}</span>{e.desc}</p>
+                                        return <p className='columnsP2' key={i} style={{ opacity: '0.9',  }}><span style={{ paddingRight: '15px', fontSize: '20px', color: '#CDA274', fontFamily: 'serif' }}>{i + 1}</span>{e.desc}</p>
                                     })
                                 }
                             </div>
@@ -124,10 +126,10 @@ const ServicesSingle = () => {
                         <hr style={{ border: '1px solid rgb(0,0,0,0.1)', height: '270px' }} />
                         <div style={{ width: '49%', display: 'flex', justifyContent: 'center' }}>
                             <div >
-                                <p style={{ fontSize: '35px', paddingBottom: '5px', fontFamily: 'serif', fontWeight: '600', }}>Make An Art</p>
+                                <p className="columnsP" style={{  paddingBottom: '5px', fontFamily: 'serif', fontWeight: '600', }}>Make An Art</p>
                                 {
                                     column2.map((e, i) => {
-                                        return <p key={i} style={{ opacity: '0.9', paddingTop: '20px', }}><span style={{ paddingRight: '15px', fontSize: '20px', color: '#CDA274', fontFamily: 'serif' }}>{i + 1}</span>{e.desc}</p>
+                                        return <p className='columnsP2' key={i} style={{ opacity: '0.9',  }}><span style={{ paddingRight: '15px', fontSize: '20px', color: '#CDA274', fontFamily: 'serif' }}>{i + 1}</span>{e.desc}</p>
                                     })
                                 }
                             </div>
@@ -135,12 +137,12 @@ const ServicesSingle = () => {
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', paddingBottom: "120px", alignItems: 'center', justifyContent: 'space-between', gap: "60px", marginTop: '140px' }}>
-                    <img src="servicesSingleImgg2.png" style={{ width: '60%',height:"400px", borderRadius: "55px",objectFit:'cover' }} />
+                <div className='S2Gap' style={{  paddingBottom: "120px", alignItems: 'center', justifyContent: 'space-between',  marginTop: '140px' }}>
+                    <img className='S2img' src="servicesSingleImgg2.png" style={{ width: '60%',  borderRadius: "55px", objectFit: 'cover' }} />
                     <div style={{ width: '50%' }}>
-                        <p style={{ fontSize: '38px', fontFamily: 'serif', fontWeight: '600', paddingRight: '15px' }}>We love design.That's how we got here.</p>
-                        <p style={{ paddingTop: "25px" }}>It is a long established fact that a reader will be distracted by the of readable content .</p>
-                        <button className='btn1' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}> Our Portfolio<span style={{
+                        <p className='S2p1' style={{  fontFamily: 'serif', fontWeight: '600', paddingRight: '15px' }}>We love design.That's how we got here.</p>
+                        <p className='S2p2' style={{ paddingTop: "25px" }}>It is a long established fact that a reader will be distracted by the of readable content .</p>
+                        <button className='btn1 btnR' style={{ backgroundColor: '#292F36', padding: "17px 20px", borderRadius: '10px', color: 'white', marginTop: '38px' }}> Our Portfolio<span style={{
                             color: '#CDA274', fontWeight
                                 : '600', paddingLeft: '7px'
                         }}>→</span></button>
@@ -150,7 +152,7 @@ const ServicesSingle = () => {
 
             </div>
 
-           <NumbersC />
+            <NumbersC />
 
             <PFixed />
         </div>
