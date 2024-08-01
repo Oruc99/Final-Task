@@ -42,6 +42,21 @@
     transform: translate(20px);
 }
 
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    color: black;
+}
+
+
+@keyframes openA {
+    0% {
+        transform: translate(-280px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
 
 
 
@@ -87,7 +102,8 @@
     .contactImGG {
         height: 430px;
     }
-    .S2Gap{
+
+    .S2Gap {
         display: flex;
     }
 
@@ -399,6 +415,172 @@
     .S2Gap {
         gap: 60px;
     }
+
+
+
+    .BDH1 {
+        font-size: 37px;
+    }
+
+    .BDImg1 {
+        height: 440px;
+    }
+
+    .BDImgData {
+        font-size: 15px;
+    }
+
+    .BDImgInfo {
+        font-size: 15px;
+        padding-top: 30px;
+    }
+
+    .BDColumn1Svg {
+        padding-block: 60px;
+    }
+
+    .BDColumn1Svg svg {
+        width: 345px;
+        height: 161px;
+    }
+
+
+    .BDColumn2H1 {
+        font-size: 29px;
+        padding-top: 135px;
+    }
+
+    .BDLatestH1 {
+        font-size: 19px;
+    }
+
+    .BDLatestP {
+        font-size: 15px;
+    }
+
+    .categories {
+        padding: 20px 35px;
+        border-radius: 30px;
+    }
+
+    .categoriesH1 {
+        font-size: 24px;
+    }
+
+    .categoriesP {
+        font-size: 18px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .tagsD {
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .tagsP {
+        padding: 9px 18px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+
+    .BDMH1 {
+        font-size: 43px;
+    }
+
+    .BDMli {
+        font-size: 15px;
+        padding-top: 28px;
+    }
+
+    .BDMimg {
+        height: 370px;
+    }
+
+    .BDMp1 {
+        font-size: 15px;
+    }
+
+    .BDMli span {
+        font-size: 18px;
+    }
+
+
+    .BDT {
+        gap: 18px;
+    }
+
+    .BDTH1 {
+        font-size: 27px;
+    }
+
+    .BDTp {
+        font-size: 15px;
+        padding: 9px 20px;
+        border-radius: 10px;
+    }
+
+    .BDTsvgs {
+        gap: 36px;
+    }
+
+    .BDTsvgs svg {
+        width: 17px;
+        height: 17px;
+    }
+
+    .BDcontact {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .BDcontactSpan {
+        grid-column: 1 / span 2;
+    }
+
+
+    .PDC {
+        padding: 42px 37px;
+        border-radius: 30px;
+    }
+
+    .PDgap {
+        gap: 45px;
+        padding-top: 160px;
+    }
+
+    .PDW {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .PDWp {
+        font-size: 16px;
+    }
+
+    .PDH1 {
+        font-size: 36px;
+    }
+
+    .PDinfo {
+        font-size: 15px;
+        padding-top: 22px;
+    }
+
+    .PDPB {
+        padding-block: 10px;
+    }
+
+    .PDimg2 {
+        height: 600px;
+        border-radius: 30px;
+        margin-top: 180px;
+    }
+
+    .PDimgSvg {
+        width: 172px;
+        height: 172px;
+    }
 }
 
 @media(max-width:1050px) {
@@ -666,20 +848,175 @@
     .S2img {
         height: 330px;
     }
+
     .S2p1 {
         font-size: 32px;
     }
+
     .S2p2 {
         font-size: 15px;
     }
+
     .S2Gap {
         gap: 53px;
+    }
+
+
+
+
+    .BDH1 {
+        font-size: 33px;
+    }
+
+    .BDImg1 {
+        height: 390px;
+    }
+
+    .BDImgData {
+        font-size: 14px;
+    }
+
+    .BDImgInfo {
+        font-size: 14px;
+        padding-top: 25px;
+    }
+
+    .BDColumn1Svg {
+        padding-block: 70px;
+    }
+
+    .BDColumn1Svg svg {
+        width: 315px;
+        height: 131px;
+    }
+
+
+    .BDColumn2H1 {
+        font-size: 28px;
+        padding-top: 125px;
+    }
+
+    .BDLatestH1 {
+        font-size: 17px;
+    }
+
+    .BDLatestP {
+        font-size: 13px;
+    }
+
+    .categories {
+        padding: 20px 30px;
+    }
+
+    .categoriesH1 {
+        font-size: 22px;
+    }
+
+    .categoriesP {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 16px;
+    }
+
+    .tagsD {
+        margin-top: 10px;
+        gap: 7px;
+    }
+
+    .tagsP {
+        padding: 9px 16px;
+        font-size: 13px;
+    }
+
+
+    .BDMH1 {
+        font-size: 37px;
+    }
+
+    .BDMli {
+        font-size: 14px;
+        padding-top: 25px;
+    }
+
+    .BDMimg {
+        height: 340px;
+    }
+
+    .BDMp1 {
+        font-size: 13px;
+    }
+
+    .BDT {
+        gap: 15px;
+    }
+
+    .BDTH1 {
+        font-size: 24px;
+    }
+
+    .BDTp {
+        font-size: 13px;
+        padding: 9px 18px;
+        border-radius: 8px;
+    }
+
+    .BDTsvgs {
+        gap: 32px;
+    }
+
+
+    .PDC {
+        padding: 38px 37px;
+        border-radius: 30px;
+    }
+
+    .PDgap {
+        gap: 45px;
+    }
+
+    .PDW {
+        font-size: 19px;
+        padding-left: 10px;
+    }
+
+    .PDWp {
+        font-size: 15px;
+    }
+
+    .PDH1 {
+        font-size: 32px;
+    }
+
+    .PDinfo {
+        font-size: 13px;
+        padding-top: 22px;
+    }
+
+    .PDPB {
+        padding-block: 7px;
+    }
+
+    .PDimg2 {
+        height: 550px;
+        border-radius: 26px;
+    }
+
+    .PDimgSvg {
+        width: 162px;
+        height: 162px;
+    }
+
+    .navbarH{
+        visibility: hidden;
     }
 }
 
 
 
 @media(max-width:870px) {
+    .navbarH{
+        visibility:visible;
+    }
     .containeR {
         width: 640px;
     }
@@ -939,18 +1276,214 @@
     .columnsP2 {
         font-size: 13px;
     }
+
     .S2img {
         height: 300px;
     }
+
     .S2p1 {
         font-size: 26px;
     }
+
     .S2p2 {
         font-size: 14px;
     }
+
     .S2Gap {
         gap: 40px;
     }
+
+
+
+
+    .BDH1 {
+        font-size: 28px;
+    }
+
+    .BDImg1 {
+        height: 325px;
+    }
+
+    .BDImgData {
+        font-size: 12px;
+    }
+
+    .BDImgInfo {
+        font-size: 12px;
+        padding-top: 25px;
+    }
+
+    .BDColumn1Svg {
+        padding-block: 65px;
+    }
+
+    .BDColumn1Svg svg {
+        width: 285px;
+        height: 101px;
+    }
+
+
+    .BDColumn2H1 {
+        font-size: 25px;
+        padding-top: 110px;
+    }
+
+    .BDLatestH1 {
+        font-size: 15px;
+    }
+
+    .BDLatestP {
+        font-size: 11px;
+    }
+
+    .categories {
+        padding: 20px 30px;
+    }
+
+    .categoriesH1 {
+        font-size: 20px;
+    }
+
+    .categoriesP {
+        font-size: 13px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+
+    .tagsD {
+        margin-top: 7px;
+        gap: 4px;
+    }
+
+    .tagsP {
+        padding: 8px 13px;
+        font-size: 10px;
+        border-radius: 8px;
+    }
+
+    .BDMH1 {
+        font-size: 33px;
+    }
+
+    .BDMli {
+        font-size: 13px;
+        padding-top: 25px;
+    }
+
+    .BDMimg {
+        height: 305px;
+    }
+
+    .BDMp1 {
+        font-size: 12px;
+    }
+
+    .BDT {
+        gap: 12px;
+    }
+
+    .BDTH1 {
+        font-size: 21px;
+    }
+
+    .BDTp {
+        font-size: 11px;
+        padding: 9px 16px;
+        border-radius: 8px;
+    }
+
+    .BDTsvgs {
+        gap: 23px;
+    }
+
+    .BDTsvgs svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .BDcontact {
+        grid-template-columns: 1fr;
+    }
+
+    .BDcontactSpan {
+        grid-column: 1;
+    }
+
+    .MKS {
+        margin-right: 17px;
+    }
+
+    .PDC {
+        padding: 35px 37px;
+        border-radius: 30px;
+    }
+
+    .PDgap {
+        gap: 39px;
+    }
+
+    .PDW {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .PDWp {
+        font-size: 12px;
+    }
+
+    .PDH1 {
+        font-size: 31px;
+    }
+
+    .PDinfo {
+        font-size: 12px;
+        padding-top: 19px;
+    }
+
+
+    .PDC {
+        padding: 30px 40px;
+        border-radius: 26px;
+    }
+
+    .PDgap {
+        gap: 45px;
+        padding-top: 100px;
+    }
+
+    .PDW {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+
+    .PDWp {
+        font-size: 13px;
+    }
+
+    .PDH1 {
+        font-size: 30px;
+    }
+
+    .PDinfo {
+        font-size: 11px;
+        padding-top: 20px;
+    }
+
+    .PDPB {
+        padding-block: 7px;
+    }
+
+    .PDimg2 {
+        height: 450px;
+        border-radius: 22px;
+        margin-top: 140px;
+    }
+
+    .PDimgSvg {
+        width: 142px;
+        height: 142px;
+    }
+   
 }
 
 
@@ -1212,17 +1745,179 @@
         font-size: 10px;
         padding-top: 10px;
     }
+
     .S2img {
         height: 270px;
     }
+
     .S2p1 {
         font-size: 20px;
     }
+
     .S2p2 {
         font-size: 11px;
     }
+
     .S2Gap {
         gap: 30px;
+    }
+
+
+
+
+
+    .BDH1 {
+        font-size: 22px;
+    }
+
+    .BDImg1 {
+        height: 280px;
+    }
+
+    .BDImgData {
+        font-size: 10px;
+    }
+
+    .BDImgInfo {
+        font-size: 10px;
+        padding-top: 22px;
+    }
+
+    .BDColumn1Svg {
+        padding-block: 55px;
+    }
+
+    .BDColumn1Svg svg {
+        width: 265px;
+        height: 80px;
+    }
+
+
+    .BDColumn2H1 {
+        font-size: 21px;
+        padding-top: 100px;
+    }
+
+    .BDLatestH1 {
+        font-size: 12px;
+    }
+
+    .BDLatestP {
+        font-size: 9px;
+    }
+
+    .categories {
+        padding: 16px 23px;
+        border-radius: 22px;
+    }
+
+    .categoriesH1 {
+        font-size: 16px;
+    }
+
+    .categoriesP {
+        font-size: 10px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+    .tagsD {
+        margin-top: 6px;
+        gap: 4px;
+    }
+
+    .tagsP {
+        padding: 7px 10px;
+        font-size: 8px;
+        border-radius: 6px;
+    }
+
+
+    .BDMH1 {
+        font-size: 28px;
+    }
+
+    .BDMli {
+        font-size: 12px;
+        padding-top: 25px;
+    }
+
+    .BDMimg {
+        height: 235px;
+    }
+
+    .BDMp1 {
+        font-size: 10px;
+    }
+
+    .BDMli span {
+        font-size: 15px;
+    }
+
+    .BDT {
+        gap: 9px;
+    }
+
+    .BDTH1 {
+        font-size: 18px;
+    }
+
+    .BDTp {
+        font-size: 9px;
+        padding: 9px 13px;
+        border-radius: 8px;
+    }
+
+    .BDTsvgs {
+        gap: 18px;
+    }
+
+    .BDTsvgs svg {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    .PDC {
+        padding: 20px 27px;
+        border-radius: 26px;
+    }
+
+    .PDgap {
+        gap: 20px;
+    }
+
+    .PDW {
+        font-size: 14px;
+        padding-left: 0px;
+    }
+
+    .PDWp {
+        font-size: 10px;
+    }
+
+    .PDH1 {
+        font-size: 24px;
+    }
+
+    .PDinfo {
+        font-size: 9px;
+        padding-top: 20px;
+    }
+
+    .PDPB {
+        padding-block: 7px;
+    }
+
+    .PDimg2 {
+        height: 370px;
+        border-radius: 17px;
+        margin-top: 90px;
+    }
+
+    .PDimgSvg {
+        width: 122px;
+        height: 122px;
     }
    
 }
@@ -1260,15 +1955,19 @@
     .homeHeadImg {
         height: 550px;
     }
+
     .S2img {
         height: 230px;
     }
+
     .S2p1 {
         font-size: 17px;
     }
+
     .S2p2 {
         font-size: 9px;
     }
+
     .S2Gap {
         gap: 15px;
     }
@@ -1463,6 +2162,164 @@
     .SSFG {
         display: grid;
     }
+
+
+
+
+
+    .BDH1 {
+        font-size: 17px;
+    }
+
+    .BDImg1 {
+        height: 230px;
+    }
+
+    .BDImgData {
+        font-size: 8px;
+    }
+
+    .BDImgInfo {
+        font-size: 8px;
+        padding-top: 17px;
+    }
+
+    .BDColumn1Svg {
+        padding-block: 45px;
+    }
+
+    .BDColumn1Svg svg {
+        width: 245px;
+        height: 60px;
+    }
+
+
+    .BDColumn2H1 {
+        font-size: 18px;
+        padding-top: 80px;
+    }
+
+    .BDLatestH1 {
+        font-size: 10px;
+    }
+
+    .BDLatestP {
+        font-size: 7px;
+    }
+
+    .categories {
+        padding: 13px 18px;
+    }
+
+    .categoriesH1 {
+        font-size: 13px;
+    }
+
+    .categoriesP {
+        font-size: 8px;
+        padding-top: 6x;
+        padding-bottom: 6px;
+    }
+
+    .tagsD {
+        margin-top: 4px;
+        gap: 4px;
+    }
+
+    .tagsP {
+        padding: 7px 8px;
+        font-size: 6px;
+        border-radius: 6px;
+    }
+
+    .BDMH1 {
+        font-size: 24px;
+    }
+
+    .BDMli {
+        font-size: 9px;
+        padding-top: 13px;
+    }
+
+    .BDMimg {
+        height: 195px;
+    }
+
+    .BDMp1 {
+        font-size: 8px;
+    }
+
+    .BDMli span {
+        font-size: 12px;
+    }
+
+    .BDT {
+        gap: 6px;
+    }
+
+    .BDTH1 {
+        font-size: 14px;
+    }
+
+    .BDTp {
+        font-size: 7px;
+        padding: 8px 9px;
+        border-radius: 5px;
+    }
+
+    .BDTsvgs {
+        gap: 13px;
+    }
+
+    .BDTsvgs svg {
+        width: 10px;
+        height: 10px;
+    }
+
+
+
+    .PDC {
+        padding: 17px 25px;
+        border-radius: 22px;
+    }
+
+    .PDgap {
+        gap: 18px;
+    }
+
+    .PDW {
+        font-size: 12px;
+        padding-left: 0px;
+    }
+
+    .PDWp {
+        font-size: 8px;
+    }
+
+    .PDH1 {
+        font-size: 21px;
+    }
+
+    .PDinfo {
+        font-size: 7px;
+        padding-top: 16px;
+    }
+
+    .PDPB {
+        padding-block: 4px;
+    }
+
+
+    .PDimg2 {
+        height: 320px;
+        border-radius: 14px;
+        margin-top: 50px;
+    }
+
+    .PDimgSvg {
+        width: 92px;
+        height: 92px;
+    }
 }
 
 
@@ -1487,7 +2344,8 @@
     .navbarC {
         display: flex;
     }
-    .S2Gap{
+
+    .S2Gap {
         display: flex;
     }
 
@@ -1798,5 +2656,168 @@
 
     .S2Gap {
         gap: 60px;
+    }
+
+
+
+    .BDH1 {
+        font-size: 40px;
+    }
+
+    .BDImg1 {
+        height: 440px;
+    }
+
+    .BDImgData {
+        font-size: 16px;
+    }
+
+    .BDImgInfo {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .BDColumn1Svg {
+        padding-block: 60px;
+    }
+
+    .BDColumn1Svg svg {
+        width: 345px;
+        height: 161px;
+    }
+
+
+    .BDColumn2H1 {
+        font-size: 29px;
+        padding-top: 155px;
+    }
+
+    .BDLatestH1 {
+        font-size: 20px;
+    }
+
+    .BDLatestP {
+        font-size: 16px;
+    }
+
+    .categories {
+        padding: 20px 40px;
+        border-radius: 30px;
+    }
+
+    .categoriesH1 {
+        font-size: 24px;
+    }
+
+    .categoriesP {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tagsD {
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .tagsP {
+        padding: 9px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .BDMH1 {
+        font-size: 47px;
+    }
+
+    .BDMli {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .BDMimg {
+        height: 380px;
+    }
+
+    .BDMp1 {
+        font-size: 16px;
+    }
+
+    .BDMli span {
+        font-size: 18px;
+    }
+
+    .BDT {
+        gap: 20px;
+    }
+
+    .BDTH1 {
+        font-size: 30px;
+    }
+
+    .BDTp {
+        font-size: 16px;
+        padding: 9px 20px;
+        border-radius: 10px;
+    }
+
+    .BDTsvgs {
+        gap: 40px;
+    }
+
+    .BDTsvgs svg {
+        width: 17px;
+        height: 17px;
+    }
+
+    .BDcontact {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .BDcontactSpan {
+        grid-column: 1 / span 2;
+    }
+
+    .PDC {
+        padding: 45px 40px;
+        border-radius: 30px;
+    }
+
+    .PDgap {
+        gap: 60px;
+        padding-top: 160px;
+    }
+
+    .PDW {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .PDWp {
+        font-size: 16px;
+    }
+
+    .PDH1 {
+        font-size: 38px;
+    }
+
+    .PDinfo {
+        font-size: 16px;
+        padding-top: 22px;
+    }
+
+    .PDPB {
+        padding-block: 10px;
+    }
+
+    .PDimg2 {
+        height: 600px;
+        border-radius: 30px;
+        margin-top: 180px;
+    }
+
+    .PDimgSvg {
+        width: 172px;
+        height: 172px;
     }
 }

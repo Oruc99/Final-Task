@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div onClick={openF} className='navbarHicon' style={{transition:"200ms", padding: "12px", borderRadius: '100%', marginRight: '5px' }}>
                     <DensityMediumIcon></DensityMediumIcon>
                 </div>
-                <div className='navbarH' style={{ padding: "35px 0px", display: open == 'close' ? 'none' : 'flex', gap: "30px", width: '280px', flexDirection: 'column', zIndex: '1', height: '100%', backgroundColor: 'white', boxShadow: '0px 0px 20px gray', position: 'fixed', top: '0', right: '100%', translate: '100%' }}>
+                <div className='navbarH' style={{ padding: "35px 0px",animationName : open == 'open' ? 'openA' : 'closeA' , animationDuration:'400ms',animationTimingFunction:'ease', display: open == 'close' ? 'none' : 'flex', gap: "30px", width: '280px', flexDirection: 'column', zIndex: '1', height: '100%', backgroundColor: 'white', boxShadow: '0px 0px 20px gray', position: 'fixed', top: '0', right: '100%', translate: '100%' }}>
                     <Link onClick={() => setActiveLink('/')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/'>Home</Link>
                     <Link onClick={() => setActiveLink('About')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/About'>About</Link>
                     <Link onClick={() => setActiveLink('Services')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Services'>Services</Link>

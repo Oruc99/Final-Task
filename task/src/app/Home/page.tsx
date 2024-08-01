@@ -201,8 +201,8 @@ const Home = () => {
    
 
       <div className='containeR' style={{  margin: 'auto', borderInline: '1px solid rgb(0, 0 ,0 ,0.1)', }}>
-        <p style={{ textAlign: 'center', paddingTop: '180px', fontSize: '45px', fontWeight: '600', fontFamily: 'serif' }}>Articles & News</p>
-        <p style={{ textAlign: 'center', opacity: '0.8', paddingTop: '10px' }}>It is a long established fact that a reader will be distracted by the of readable content <br />of a page when lookings at its layouts the points of using.</p>
+        <p className='pTitle' style={{ textAlign: 'center', paddingTop: '180px',  fontWeight: '600', fontFamily: 'serif' }}>Articles & News</p>
+        <p className='pInfo' style={{ textAlign: 'center', opacity: '0.8', paddingTop: '10px' }}>It is a long established fact that a reader will be distracted by the of readable content <br />of a page when lookings at its layouts the points of using.</p>
       </div>
 
 
