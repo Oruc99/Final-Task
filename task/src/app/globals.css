@@ -45,8 +45,15 @@
 .mySwiper .swiper-button-next,
 .mySwiper .swiper-button-prev {
     color: black;
-}
 
+}
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover{
+color: rgb(111, 111, 111);
+}
+.mySwiper .swiper-pagination {
+   display: none; 
+  }
 
 @keyframes openA {
     0% {
@@ -581,6 +588,91 @@
         width: 172px;
         height: 172px;
     }
+    .TSS{
+        display: none;
+    }
+    .TSC{
+        display: grid;
+    }
+    .SwiperS{
+        padding-bottom :50px;
+        padding-top: 190px;
+    }
+
+
+    .TSimg1{
+        height: 550px;
+        border-radius: 30px;
+    }
+    .TSimgH1{
+        font-size: 30px;
+    }
+    .TSimgInfo{
+        font-size: 16px;
+        padding-top: 24px;
+    }
+    .TSimgSvg01{
+        width: 265px;
+        height: 53px;
+    }
+    .TSimgMT1{
+        margin-top: 33px;
+    }
+    .TSimgMT2{
+        margin-top: 22px;
+    }
+    .TSimgSvg02{
+        width: 240px;
+        height: 53px;
+    }
+    .TSimgSvg2{
+        margin-top: 33px;
+        width: 151px;
+        height: 23px;
+    }
+    .TSPT1{
+        padding-top: 160px;
+    }
+    .TSMp1{
+        font-size: 28px;
+        margin-top: 80px;
+    }
+    .TSMp2{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+
+
+    .TSMp1{
+        font-size: 24px;
+        margin-top: 70px;
+    }
+    .TSMp2{
+        font-size: 15px;
+        padding-top: 18px;
+    }
+   
+    .PSsvg{
+        height: 47px;
+        width: 435px;
+    }
+    .PSsvg1{
+        margin-top: 30px;
+    }
+    .PSsvg2{
+        margin-top: 20px;
+    }
+    .GT{
+        font-size:17px ;
+    }
+    .GP{
+        font-size: 15px;
+    }
+    .GMT{
+        margin-top: 25px;
+       }
+   
 }
 
 @media(max-width:1050px) {
@@ -1009,6 +1101,79 @@
     .navbarH{
         visibility: hidden;
     }
+    .TSS{
+        display: block;
+    }
+    .TSC{
+        display: none;
+    }
+    .Timg1{
+        width: 410px;
+        height: 470px;
+    }
+
+
+    .TSimg1{
+        height: 500px;
+        border-radius: 28px;
+    }
+    .TSimgH1{
+        font-size: 28px;
+    }
+    .TSimgInfo{
+        font-size: 15px;
+        padding-top: 22px;
+    }
+    .TSimgSvg01{
+        width: 245px;
+        height: 53px;
+    }
+    .TSimgSvg02{
+        width: 220px;
+        height: 53px;
+    }
+    .TSimgMT1{
+        margin-top: 29px;
+    }
+    .TSimgMT2{
+        margin-top: 19px;
+    }
+    .TSimgSvg2{
+        margin-top: 30px;
+        width: 141px;
+        height: 23px;
+    }
+
+
+    .TSMp1{
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .TSMp2{
+        font-size: 14px;
+        padding-top: 15px;
+    }
+   
+    .PSsvg{
+        height: 44px;
+        width: 400px;
+    }
+    .PSsvg1{
+        margin-top: 30px;
+    }
+    .PSsvg2{
+        margin-top: 20px;
+    }
+    .GT{
+        font-size:16px ;
+    }
+    .GP{
+        font-size: 13px;
+    }
+    .GMT{
+        margin-top: 20px;
+       }
+   
 }
 
 
@@ -1483,6 +1648,90 @@
         width: 142px;
         height: 142px;
     }
+    .Timg1{
+        width: 330px;
+        height: 410px;
+    }
+    .SwiperS{
+        padding-bottom :50px;
+        padding-top: 140px;
+    }
+
+
+    .TSimg1{
+        height: 440px;
+        border-radius: 25px;
+    }
+    .TSimgH1{
+        font-size: 26px;
+    }
+    .TSimgInfo{
+        font-size: 13px;
+        padding-top: 18px;
+    }
+    .TSimgSvg01{
+        width: 220px;
+        height: 53px;
+    }
+    .TSimgSvg02{
+        width: 195px;
+        height: 53px;
+    }
+    .TSimgMT1{
+        margin-top: 20px;
+    }
+    .TSimgMT2{
+        margin-top: 11px;
+    }
+    .TSimgSvg2{
+        margin-top: 23px;
+        width: 127px;
+        height: 22px;
+    }
+    .TSPT1{
+        padding-top: 120px;
+    }
+    .TSMp1{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .TSMp2{
+        font-size: 13px;
+        padding-top: 16px;
+    }
+
+
+    .TSMp1{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .TSMp2{
+        font-size: 11px;
+        padding-top: 12px;
+    }
+   
+    .PSsvg{
+        height: 40px;
+        width: 330px;
+    }
+    .PSsvg1{
+        margin-top: 27px;
+    }
+    .PSsvg2{
+        margin-top: 17px;
+    }
+    .GT{
+        font-size:12px ;
+    }
+    .GP{
+        font-size: 11px;
+    }
+    .GMT{
+        margin-top: 15px;
+       }
+       .AD{
+        padding-top: 0px;
+       }
    
 }
 
@@ -1919,6 +2168,84 @@
         width: 122px;
         height: 122px;
     }
+    .Timg1{
+        width: 280px;
+        height: 370px;
+    }
+    .SwiperS{
+        padding-bottom :0px;
+        padding-top: 120px;
+    }
+
+
+    .TSimg1{
+        height: 370px;
+        border-radius: 22px;
+    }
+    .TSimgH1{
+        font-size: 22px;
+    }
+    .TSimgInfo{
+        font-size: 10px;
+        padding-top: 15px;
+    }
+    .TSimgSvg01{
+        width: 180px;
+        height: 50px;
+    }
+    .TSimgSvg02{
+        width: 155px;
+        height: 50px;
+    }
+    .TSimgMT1{
+        margin-top: 15px;
+    }
+    .TSimgMT2{
+        margin-top: 4px;
+    }
+    .TSimgSvg2{
+        margin-top: 20px;
+        width: 107px;
+        height: 20px;
+    }
+    .TSMp1{
+        font-size: 23px;
+    }
+    .TSMp2{
+        font-size: 12px;
+        padding-top: 12px;
+    }
+
+
+    .TSMp1{
+        font-size: 14px;
+        margin-top: 36px;
+    }
+    .TSMp2{
+        font-size: 8px;
+        padding-top: 10px;
+    }
+   
+    .PSsvg{
+        height: 30px;
+        width: 235px;
+    }
+    .PSsvg1{
+        margin-top: 23px;
+    }
+    .PSsvg2{
+        margin-top: 12px;
+    }
+    .GT{
+        font-size:9px ;
+    }
+    .GP{
+        font-size: 8px;
+    }
+    .GMT{
+        margin-top: 11px;
+       }
+   
    
 }
 
@@ -2320,6 +2647,88 @@
         width: 92px;
         height: 92px;
     }
+    .Timg1{
+        width: 240px;
+        height: 320px;
+    }
+
+    .TSimg1{
+        height: 310px;
+        border-radius: 20px;
+    }
+    .TSimgH1{
+        font-size: 20px;
+    }
+    .TSimgInfo{
+        font-size: 8px;
+        padding-top: 12px;
+    }
+    .TSimgSvg01{
+        width: 150px;
+        height: 45px;
+    }
+    .TSimgSvg02{
+        width: 125px;
+        height: 45px;
+    }
+    .TSimgMT1{
+        margin-top: 10px;
+    }
+    .TSimgMT2{
+        margin-top: 0px;
+    }
+    .TSimgSvg2{
+        margin-top: 10px;
+        width: 87px;
+        height: 20px;
+    }
+    .TSPT1{
+        padding-top: 100px;
+    }
+    .TSMp1{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .TSMp2{
+        font-size: 10px;
+        padding-top: 8px;
+    }
+
+
+
+    .TSMp1{
+        font-size: 11px;
+        margin-top: 15px;
+    }
+    .TSMp2{
+        font-size: 6px;
+        padding-top: 8px;
+    }
+   
+    .PSsvg{
+        height: 25px;
+        width: 195px;
+    }
+    .PSsvg1{
+        margin-top: 20px;
+    }
+    .PSsvg2{
+        margin-top: 9px;
+    }
+    .GT{
+        font-size:7px ;
+    }
+    .GP{
+        font-size: 6px;
+    }
+    .GMT{
+        margin-top: 6px;
+       }
+
+
+
+       
+
 }
 
 
@@ -2820,4 +3229,77 @@
         width: 172px;
         height: 172px;
     }
+    .TSS{
+        display: none;
+    }
+    .TSC{
+        display: grid;
+    }
+ 
+
+    .TSimg1{
+        height: 550px;
+        border-radius: 30px;
+    }
+    .TSimgH1{
+        font-size: 30px;
+    }
+    .TSimgInfo{
+        font-size: 16px;
+        padding-top: 24px;
+    }
+    .TSimgSvg01{
+        width: 265px;
+        height: 53px;
+    }
+    .TSimgMT1{
+        margin-top: 33px;
+    }
+    .TSimgMT2{
+        margin-top: 22px;
+    }
+    .TSimgSvg02{
+        width: 240px;
+        height: 53px;
+    }
+    .TSimgSvg2{
+        margin-top: 33px;
+        width: 151px;
+        height: 23px;
+    }
+    .TSPT1{
+        padding-top: 160px;
+    }
+
+
+    .TSMp1{
+        font-size: 27px;
+        margin-top: 80px;
+    }
+    .TSMp2{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+   
+    .PSsvg{
+        height: 57px;
+        width: 457px;
+    }
+    .PSsvg1{
+        margin-top: 30px;
+    }
+    .PSsvg2{
+        margin-top: 20px;
+    }
+    .GT{
+        font-size:18px ;
+    }
+    .GP{
+        font-size: 16px;
+    }
+   .GMT{
+    margin-top: 30px;
+   }
+   
+    
 }
