@@ -12,10 +12,10 @@ const Pricing = () => {
                 </div>
             </div>
 
-            <div style={{ width: '1050px', borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto',  }}>
-                <div style={{ width: '100%', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '25px', paddingTop: '150px' }}>
+            <div className='containeR' style={{  borderInline: '1px solid rgb(0,0,0,0.1)', margin: 'auto',  }}>
+                <div className='prD' style={{ width: '100%', display: 'flex',flexWrap:"wrap",gap:"50px 0px" ,  paddingTop: '150px' }}>
 
-                    <div style={{ backgroundColor: '#F4F0EC', borderRadius: '35px', }}>
+                    <div style={{ backgroundColor: '#F4F0EC', borderRadius: '35px',minWidth:"333px"}}>
                         <p style={{ textAlign: 'center', fontSize: '28px', fontWeight: '600', fontFamily: 'serif', paddingTop: '45px' }}>Design advices</p>
                         <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '32px' }}>
                             <svg width="102" height="98" viewBox="0 0 102 98" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundColor: '#F4F0EC', borderRadius: '35px', }}>
+                    <div style={{ backgroundColor: '#F4F0EC', borderRadius: '35px',minWidth:"333px" }}>
                         <p style={{ textAlign: 'center', fontSize: '28px', fontWeight: '600', fontFamily: 'serif', paddingTop: '45px' }}>Complete interior</p>
                         <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '32px' }}>
                             <svg width="102" height="98" viewBox="0 0 102 98" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundColor: '#F4F0EC', borderRadius: '35px', }}>
+                    <div style={{ backgroundColor: '#F4F0EC', borderRadius: '35px',minWidth:"333px" }}>
                         <p style={{ textAlign: 'center', fontSize: '28px', fontWeight: '600', fontFamily: 'serif', paddingTop: '45px' }}>Furniture design</p>
                         <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '32px' }}>
                             <svg width="102" height="98" viewBox="0 0 102 98" fill="none" xmlns="http://www.w3.org/2000/svg">

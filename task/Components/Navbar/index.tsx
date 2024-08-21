@@ -22,24 +22,30 @@ const Navbar = () => {
                         <path d="M0 42.0003H13.4588V32.499C13.4588 30.4853 15.0898 28.8543 17.1035 28.8543C19.1172 28.8543 20.7482 30.4853 20.7482 32.499V42.0003H33.9975V8C15.2211 8 0 23.2211 0 42.0003Z" fill="#CDA274" />
                     </svg>
                 </Link>
-                <div className='navbarC' style={{ width: '50%', alignItems: 'center', justifyContent: 'space-between' }}>
+                <div className='navbarC' style={{ width: '70%', alignItems: 'center', justifyContent: 'space-between' }}>
                     <Link onClick={() => setActiveLink('/')} style={{ opacity: activeLink == '/' ? '1' : '0.7' }} className='navLink' href='/'>Home</Link>
                     <Link onClick={() => setActiveLink('About')} style={{ opacity: activeLink == 'About' ? '1' : '0.7' }} className='navLink' href='/About'>About</Link>
                     <Link onClick={() => setActiveLink('Services')} style={{ opacity: activeLink == 'Services' ? '1' : '0.7' }} className='navLink' href='/Services'>Services</Link>
                     <Link onClick={() => setActiveLink('Project')} style={{ opacity: activeLink == 'Project' ? '1' : '0.7' }} className='navLink' href='/Project'>Project</Link>
                     <Link onClick={() => setActiveLink('Blog')} style={{ opacity: activeLink == 'Blog' ? '1' : '0.7' }} className='navLink' href='/Blog'>Blog</Link>
+                    <Link onClick={() => setActiveLink('Pricing')} style={{ opacity: activeLink == 'Pricing' ? '1' : '0.7' }} className='navLink' href='/Pricing'>Pricing</Link>
+                    <Link onClick={() => setActiveLink('Team')} style={{ opacity: activeLink == 'Team' ? '1' : '0.7' }} className='navLink' href='/Team'>Team</Link>
+                    <Link onClick={() => setActiveLink('FAQ')} style={{ opacity: activeLink == 'FAQ' ? '1' : '0.7' }} className='navLink' href='/Faq'>FAQ</Link>
                     <Link onClick={() => setActiveLink('Contact')} style={{ opacity: activeLink == 'Contact' ? '1' : '0.7' }} className='navLink' href='/Contact'>Contact</Link>
                 </div>
                 <div onClick={openF} className='navbarHicon' style={{transition:"200ms", padding: "12px", borderRadius: '100%', marginRight: '5px' }}>
                     <DensityMediumIcon></DensityMediumIcon>
                 </div>
-                <div className='navbarH' style={{ padding: "35px 0px",animationName : open == 'open' ? 'openA' : 'closeA' , animationDuration:'400ms',animationTimingFunction:'ease', display: open == 'close' ? 'none' : 'flex', gap: "30px", width: '280px', flexDirection: 'column', zIndex: '1', height: '100%', backgroundColor: 'white', boxShadow: '0px 0px 20px gray', position: 'fixed', top: '0', right: '100%', translate: '100%' }}>
-                    <Link onClick={() => setActiveLink('/')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/'>Home</Link>
-                    <Link onClick={() => setActiveLink('About')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/About'>About</Link>
-                    <Link onClick={() => setActiveLink('Services')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Services'>Services</Link>
-                    <Link onClick={() => setActiveLink('Project')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Project'>Project</Link>
-                    <Link onClick={() => setActiveLink('Blog')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Blog'>Blog</Link>
-                    <Link onClick={() => setActiveLink('Contact')} style={{ fontSize: '25px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Contact'>Contact</Link>
+                <div className='navbarH' style={{ padding: "35px 0px",animationName : open == 'open' ? 'openA' : 'closeA' , animationDuration:'400ms',animationTimingFunction:'ease', display: open == 'close' ? 'none' : 'flex', gap: "23px", width: '280px', flexDirection: 'column', zIndex: '1', height: '100%', backgroundColor: 'white', boxShadow: '0px 0px 20px gray', position: 'fixed', top: '0', right: '100%', translate: '100%' }}>
+                    <Link onClick={() => setActiveLink('/')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/'>Home</Link>
+                    <Link onClick={() => setActiveLink('About')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/About'>About</Link>
+                    <Link onClick={() => setActiveLink('Services')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Services'>Services</Link>
+                    <Link onClick={() => setActiveLink('Project')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Project'>Project</Link>
+                    <Link onClick={() => setActiveLink('Blog')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Blog'>Blog</Link>
+                    <Link onClick={() => setActiveLink('Pricing')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Pricing'>Pricing</Link>
+                    <Link onClick={() => setActiveLink('Team')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Team'>Team</Link>
+                    <Link onClick={() => setActiveLink('FAQ')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Faq'>FAQ</Link>
+                    <Link onClick={() => setActiveLink('Contact')} style={{ fontSize: '22px',transition:'200ms', paddingLeft: '40px' }} className='navLinkH' href='/Contact'>Contact</Link>
                 </div>
             </div>
         </div>

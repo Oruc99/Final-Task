@@ -47,19 +47,22 @@
     color: black;
 
 }
+
 .mySwiper .swiper-button-next:hover,
-.mySwiper .swiper-button-prev:hover{
-color: rgb(111, 111, 111);
+.mySwiper .swiper-button-prev:hover {
+    color: rgb(111, 111, 111);
 }
+
 .mySwiper .swiper-pagination {
-   display: none; 
-  }
+    display: none;
+}
 
 @keyframes openA {
     0% {
         transform: translate(-280px);
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
     }
 }
@@ -86,6 +89,14 @@ color: rgb(111, 111, 111);
 
 
 @media(max-width:1200px) {
+    .prD {
+        justify-content: space-around;
+    }
+
+    .divAccR {
+        width: 50%;
+    }
+
     .containeR {
         width: 930px;
     }
@@ -588,104 +599,153 @@ color: rgb(111, 111, 111);
         width: 172px;
         height: 172px;
     }
-    .TSS{
+
+    .TSS {
         display: none;
     }
-    .TSC{
+
+    .TSC {
         display: grid;
     }
-    .SwiperS{
-        padding-bottom :50px;
+
+    .SwiperS {
+        padding-bottom: 50px;
         padding-top: 190px;
     }
 
 
-    .TSimg1{
+    .TSimg1 {
         height: 550px;
         border-radius: 30px;
     }
-    .TSimgH1{
+
+    .TSimgH1 {
         font-size: 30px;
     }
-    .TSimgInfo{
+
+    .TSimgInfo {
         font-size: 16px;
         padding-top: 24px;
     }
-    .TSimgSvg01{
+
+    .TSimgSvg01 {
         width: 265px;
         height: 53px;
     }
-    .TSimgMT1{
+
+    .TSimgMT1 {
         margin-top: 33px;
     }
-    .TSimgMT2{
+
+    .TSimgMT2 {
         margin-top: 22px;
     }
-    .TSimgSvg02{
+
+    .TSimgSvg02 {
         width: 240px;
         height: 53px;
     }
-    .TSimgSvg2{
+
+    .TSimgSvg2 {
         margin-top: 33px;
         width: 151px;
         height: 23px;
     }
-    .TSPT1{
+
+    .TSPT1 {
         padding-top: 160px;
     }
-    .TSMp1{
+
+    .TSMp1 {
         font-size: 28px;
         margin-top: 80px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 15px;
         padding-top: 20px;
     }
 
 
 
-    .TSMp1{
+    .TSMp1 {
         font-size: 24px;
         margin-top: 70px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 15px;
         padding-top: 18px;
     }
-   
-    .PSsvg{
+
+    .PSsvg {
         height: 47px;
         width: 435px;
     }
-    .PSsvg1{
+
+    .PSsvg1 {
         margin-top: 30px;
     }
-    .PSsvg2{
+
+    .PSsvg2 {
         margin-top: 20px;
     }
-    .GT{
-        font-size:17px ;
+
+    .GT {
+        font-size: 17px;
     }
-    .GP{
+
+    .GP {
         font-size: 15px;
     }
-    .GMT{
+
+    .GMT {
         margin-top: 25px;
-       }
-   
+    }
+
+    .navbarH {
+        visibility: hidden;
+    }
+
+
+
+
+    .faqAccImg {
+        height: 530px;
+        border-radius: 30px;
+    }
+
+    .faqAccSummary {}
+
+    .AccSumTyp {
+        font-size: 18px;
+    }
+
+    .AccD {}
+
+    .AccDTyp {
+        font-size: 15px;
+    }
+    .divWimg{
+        width: 43%;
+    }
 }
 
 @media(max-width:1050px) {
+    .navbarH {
+        visibility: visible;
+    }
+
     .containeR {
         width: 800px;
     }
 
     .navbarC {
-        display: flex;
+        display: none;
     }
 
     .navbarHicon {
-        display: none;
+        display: inherit;
     }
 
     .homeHeadH1 {
@@ -1098,90 +1158,122 @@ color: rgb(111, 111, 111);
         height: 162px;
     }
 
-    .navbarH{
-        visibility: hidden;
-    }
-    .TSS{
+
+    .TSS {
         display: block;
     }
-    .TSC{
+
+    .TSC {
         display: none;
     }
-    .Timg1{
+
+    .Timg1 {
         width: 410px;
         height: 470px;
     }
 
 
-    .TSimg1{
+    .TSimg1 {
         height: 500px;
         border-radius: 28px;
     }
-    .TSimgH1{
+
+    .TSimgH1 {
         font-size: 28px;
     }
-    .TSimgInfo{
+
+    .TSimgInfo {
         font-size: 15px;
         padding-top: 22px;
     }
-    .TSimgSvg01{
+
+    .TSimgSvg01 {
         width: 245px;
         height: 53px;
     }
-    .TSimgSvg02{
+
+    .TSimgSvg02 {
         width: 220px;
         height: 53px;
     }
-    .TSimgMT1{
+
+    .TSimgMT1 {
         margin-top: 29px;
     }
-    .TSimgMT2{
+
+    .TSimgMT2 {
         margin-top: 19px;
     }
-    .TSimgSvg2{
+
+    .TSimgSvg2 {
         margin-top: 30px;
         width: 141px;
         height: 23px;
     }
 
 
-    .TSMp1{
+    .TSMp1 {
         font-size: 22px;
         margin-top: 50px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 14px;
         padding-top: 15px;
     }
-   
-    .PSsvg{
+
+    .PSsvg {
         height: 44px;
         width: 400px;
     }
-    .PSsvg1{
+
+    .PSsvg1 {
         margin-top: 30px;
     }
-    .PSsvg2{
+
+    .PSsvg2 {
         margin-top: 20px;
     }
-    .GT{
-        font-size:16px ;
+
+    .GT {
+        font-size: 16px;
     }
-    .GP{
+
+    .GP {
         font-size: 13px;
     }
-    .GMT{
+
+    .GMT {
         margin-top: 20px;
-       }
-   
+    }
+
+
+
+    .faqAccImg {
+        height: 480px;
+        border-radius: 30px;
+    }
+
+    .faqAccSummary {}
+
+    .AccSumTyp {
+        font-size: 16px;
+    }
+
+    .AccD {}
+
+    .AccDTyp {
+        font-size: 13px;
+    }
 }
 
 
 
 @media(max-width:870px) {
-    .navbarH{
-        visibility:visible;
+    .navbarH {
+        visibility: visible;
     }
+
     .containeR {
         width: 640px;
     }
@@ -1648,91 +1740,129 @@ color: rgb(111, 111, 111);
         width: 142px;
         height: 142px;
     }
-    .Timg1{
+
+    .Timg1 {
         width: 330px;
         height: 410px;
     }
-    .SwiperS{
-        padding-bottom :50px;
+
+    .SwiperS {
+        padding-bottom: 50px;
         padding-top: 140px;
     }
 
 
-    .TSimg1{
+    .TSimg1 {
         height: 440px;
         border-radius: 25px;
     }
-    .TSimgH1{
+
+    .TSimgH1 {
         font-size: 26px;
     }
-    .TSimgInfo{
+
+    .TSimgInfo {
         font-size: 13px;
         padding-top: 18px;
     }
-    .TSimgSvg01{
+
+    .TSimgSvg01 {
         width: 220px;
         height: 53px;
     }
-    .TSimgSvg02{
+
+    .TSimgSvg02 {
         width: 195px;
         height: 53px;
     }
-    .TSimgMT1{
+
+    .TSimgMT1 {
         margin-top: 20px;
     }
-    .TSimgMT2{
+
+    .TSimgMT2 {
         margin-top: 11px;
     }
-    .TSimgSvg2{
+
+    .TSimgSvg2 {
         margin-top: 23px;
         width: 127px;
         height: 22px;
     }
-    .TSPT1{
+
+    .TSPT1 {
         padding-top: 120px;
     }
-    .TSMp1{
+
+    .TSMp1 {
         font-size: 25px;
         margin-top: 60px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 13px;
         padding-top: 16px;
     }
 
 
-    .TSMp1{
+    .TSMp1 {
         font-size: 20px;
         margin-top: 40px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 11px;
         padding-top: 12px;
     }
-   
-    .PSsvg{
+
+    .PSsvg {
         height: 40px;
         width: 330px;
     }
-    .PSsvg1{
+
+    .PSsvg1 {
         margin-top: 27px;
     }
-    .PSsvg2{
+
+    .PSsvg2 {
         margin-top: 17px;
     }
-    .GT{
-        font-size:12px ;
+
+    .GT {
+        font-size: 12px;
     }
-    .GP{
+
+    .GP {
         font-size: 11px;
     }
-    .GMT{
+
+    .GMT {
         margin-top: 15px;
-       }
-       .AD{
+    }
+
+    .AD {
         padding-top: 0px;
-       }
-   
+    }
+
+
+
+    .faqAccImg {
+        height: 430px;
+        border-radius: 30px;
+    }
+
+    .faqAccSummary {}
+
+    .AccSumTyp {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .AccD {}
+
+    .AccDTyp {
+        font-size: 11px;
+    }
 }
 
 
@@ -2168,85 +2298,119 @@ color: rgb(111, 111, 111);
         width: 122px;
         height: 122px;
     }
-    .Timg1{
+
+    .Timg1 {
         width: 280px;
         height: 370px;
     }
-    .SwiperS{
-        padding-bottom :0px;
+
+    .SwiperS {
+        padding-bottom: 0px;
         padding-top: 120px;
     }
 
 
-    .TSimg1{
+    .TSimg1 {
         height: 370px;
         border-radius: 22px;
     }
-    .TSimgH1{
+
+    .TSimgH1 {
         font-size: 22px;
     }
-    .TSimgInfo{
+
+    .TSimgInfo {
         font-size: 10px;
         padding-top: 15px;
     }
-    .TSimgSvg01{
+
+    .TSimgSvg01 {
         width: 180px;
         height: 50px;
     }
-    .TSimgSvg02{
+
+    .TSimgSvg02 {
         width: 155px;
         height: 50px;
     }
-    .TSimgMT1{
+
+    .TSimgMT1 {
         margin-top: 15px;
     }
-    .TSimgMT2{
+
+    .TSimgMT2 {
         margin-top: 4px;
     }
-    .TSimgSvg2{
+
+    .TSimgSvg2 {
         margin-top: 20px;
         width: 107px;
         height: 20px;
     }
-    .TSMp1{
+
+    .TSMp1 {
         font-size: 23px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 12px;
         padding-top: 12px;
     }
 
 
-    .TSMp1{
+    .TSMp1 {
         font-size: 14px;
         margin-top: 36px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 8px;
         padding-top: 10px;
     }
-   
-    .PSsvg{
+
+    .PSsvg {
         height: 30px;
         width: 235px;
     }
-    .PSsvg1{
+
+    .PSsvg1 {
         margin-top: 23px;
     }
-    .PSsvg2{
+
+    .PSsvg2 {
         margin-top: 12px;
     }
-    .GT{
-        font-size:9px ;
+
+    .GT {
+        font-size: 9px;
     }
-    .GP{
+
+    .GP {
         font-size: 8px;
     }
-    .GMT{
+
+    .GMT {
         margin-top: 11px;
-       }
-   
-   
+    }
+
+
+
+    .divAccR {
+        width: 100%;
+    }
+    .faqAccImg {
+        display: none;
+    }
+    .AccSumTyp {
+        font-size: 16px;
+    }
+    .AccDTyp {
+        font-size: 12px;
+    }
+    .divWimg{
+        width: 0%;
+    }
+
 }
 
 @media(max-width:600px) {
@@ -2647,87 +2811,104 @@ color: rgb(111, 111, 111);
         width: 92px;
         height: 92px;
     }
-    .Timg1{
+
+    .Timg1 {
         width: 240px;
         height: 320px;
     }
 
-    .TSimg1{
+    .TSimg1 {
         height: 310px;
         border-radius: 20px;
     }
-    .TSimgH1{
+
+    .TSimgH1 {
         font-size: 20px;
     }
-    .TSimgInfo{
+
+    .TSimgInfo {
         font-size: 8px;
         padding-top: 12px;
     }
-    .TSimgSvg01{
+
+    .TSimgSvg01 {
         width: 150px;
         height: 45px;
     }
-    .TSimgSvg02{
+
+    .TSimgSvg02 {
         width: 125px;
         height: 45px;
     }
-    .TSimgMT1{
+
+    .TSimgMT1 {
         margin-top: 10px;
     }
-    .TSimgMT2{
+
+    .TSimgMT2 {
         margin-top: 0px;
     }
-    .TSimgSvg2{
+
+    .TSimgSvg2 {
         margin-top: 10px;
         width: 87px;
         height: 20px;
     }
-    .TSPT1{
+
+    .TSPT1 {
         padding-top: 100px;
     }
-    .TSMp1{
+
+    .TSMp1 {
         font-size: 20px;
         margin-top: 30px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 10px;
         padding-top: 8px;
     }
 
 
 
-    .TSMp1{
+    .TSMp1 {
         font-size: 11px;
         margin-top: 15px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 6px;
         padding-top: 8px;
     }
-   
-    .PSsvg{
+
+    .PSsvg {
         height: 25px;
         width: 195px;
     }
-    .PSsvg1{
+
+    .PSsvg1 {
         margin-top: 20px;
     }
-    .PSsvg2{
+
+    .PSsvg2 {
         margin-top: 9px;
     }
-    .GT{
-        font-size:7px ;
+
+    .GT {
+        font-size: 7px;
     }
-    .GP{
+
+    .GP {
         font-size: 6px;
     }
-    .GMT{
+
+    .GMT {
         margin-top: 6px;
-       }
+    }
 
 
 
-       
+
 
 }
 
@@ -3229,77 +3410,123 @@ color: rgb(111, 111, 111);
         width: 172px;
         height: 172px;
     }
-    .TSS{
+
+    .TSS {
         display: none;
     }
-    .TSC{
+
+    .TSC {
         display: grid;
     }
- 
 
-    .TSimg1{
+
+    .TSimg1 {
         height: 550px;
         border-radius: 30px;
     }
-    .TSimgH1{
+
+    .TSimgH1 {
         font-size: 30px;
     }
-    .TSimgInfo{
+
+    .TSimgInfo {
         font-size: 16px;
         padding-top: 24px;
     }
-    .TSimgSvg01{
+
+    .TSimgSvg01 {
         width: 265px;
         height: 53px;
     }
-    .TSimgMT1{
+
+    .TSimgMT1 {
         margin-top: 33px;
     }
-    .TSimgMT2{
+
+    .TSimgMT2 {
         margin-top: 22px;
     }
-    .TSimgSvg02{
+
+    .TSimgSvg02 {
         width: 240px;
         height: 53px;
     }
-    .TSimgSvg2{
+
+    .TSimgSvg2 {
         margin-top: 33px;
         width: 151px;
         height: 23px;
     }
-    .TSPT1{
+
+    .TSPT1 {
         padding-top: 160px;
     }
 
 
-    .TSMp1{
+    .TSMp1 {
         font-size: 27px;
         margin-top: 80px;
     }
-    .TSMp2{
+
+    .TSMp2 {
         font-size: 16px;
         padding-top: 20px;
     }
-   
-    .PSsvg{
+
+    .PSsvg {
         height: 57px;
         width: 457px;
     }
-    .PSsvg1{
+
+    .PSsvg1 {
         margin-top: 30px;
     }
-    .PSsvg2{
+
+    .PSsvg2 {
         margin-top: 20px;
     }
-    .GT{
-        font-size:18px ;
+
+    .GT {
+        font-size: 18px;
     }
-    .GP{
+
+    .GP {
         font-size: 16px;
     }
-   .GMT{
-    margin-top: 30px;
-   }
-   
-    
+
+    .GMT {
+        margin-top: 30px;
+    }
+
+    .prD {
+        justify-content: space-between;
+    }
+
+    .navbarH {
+        visibility: hidden;
+    }
+
+
+
+    .faqAccImg {
+        height: 530px;
+        border-radius: 30px;
+    }
+
+    .faqAccSummary {}
+
+    .AccSumTyp {
+        font-size: 20px;
+    }
+
+    .AccD {}
+
+    .AccDTyp {}
+
+    .divAccR {
+        width: 50%;
+    }
+    .divWimg{
+        width: 43%;
+    }
 }
